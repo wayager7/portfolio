@@ -20,11 +20,25 @@ main{
     align-items: center;
     justify-content: space-around;
 }
+.main{
+    grid-row-start: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .fleche{
     height: 50px;
     width: 50px;
-    border-left: solid 3px;
-    border-top: solid 3px;
+    border-left: dashed 3px #929292;
+    border-top: solid 3px #929292;
+    /* border-bottom-style: double; */
+    transition: all 0.5s;
+}
+.fleche:active{
+    height: 55px;
+    width: 55px;
+    /* border-left: dashed 3px #929292; */
+    border-top: dashed 3px #929292;
 }
 footer{
     grid-row-start: 3;
@@ -35,6 +49,10 @@ footer{
     height: 56vw; 
     border-radius: 100%;
     text-align: center;
-    border: solid;
-    background: radial-gradient(#005F7E 0%, rgba(0, 95, 126, 0) 94%);
+    background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, #005F7E 0%, rgba(0, 95, 126, 0) 94%);
+    transition: all 0.5s;
+}
+.planete:active{
+    width: 60vw;
+    height: 60vw;    
 }
