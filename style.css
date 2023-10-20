@@ -5,110 +5,119 @@
     box-sizing: border-box;
 }
 body{
-    display: grid;
-    grid-template-rows: 10% 80% 10%;
+    /* display: grid; */
+    /* grid-template-rows: 10% 80% 10%; */
     width: 100vw;
     height: 100vh;
     background-color: black;
 }
-header{
-    grid-row-start: 1;
-    border: solid;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-main{
-    grid-row-start: 2;
-    /* display: flex; */
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    overflow: scroll;
-    height: 80vh;
-    scroll-snap-type: y mandatory;
-}
-    .moi{
-        height: 80vh;
-        width: 100vw;
-        scroll-snap-align: start;
-        transition: all 0.5s;
-    }
-    .main{
+    header{
         position: relative;
-        grid-row-start: 2;
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: space-around; */
-        height: 80vh;
-        width: 100vw;
-        scroll-snap-align: start;
-        overflow: scroll;
-        scroll-snap-type: x mandatory;
+        z-index: 2;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+        background: linear-gradient(0deg, #8d61b600 0%, #8d61b632 94%);
     }
-        .fleches{
-            position: absolute;
-            /* je vais retravailler le positionnement */
-            top: 47%;
-            left: 2%;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            width: 95vw;
-        }
-            .fleche{
-                height: 50px;
-                width: 50px;
-                border-left: dashed 3px #929292;
-                border-top: solid 3px #929292;
-                /* border-bottom-style: double; */
-                transition: all 0.5s;
-            }
-                .fleche:active{
-                    height: 55px;
-                    width: 55px;
-                    /* border-left: dashed 3px #929292; */
-                    border-top: dashed 3px #929292;
-                }
-        .planetes{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-around;
-            width: 500vw;
+    
+    main{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        overflow: scroll;
+        height: 100vh;
+        scroll-snap-type: y mandatory;
+        position: relative;
+        z-index: 1;
+        top: -10vh;
+
+    }
+        .moi{
             height: 80vh;
+            width: 100vw;
+            padding-left: 5vw;
+            padding-right: 5vw;
+            scroll-snap-align: center;
+            transition: all 0.5s;
         }
-            .planete{
-                /* position: relative; */
-                width: 56vw; 
-                height: 56vw; 
-                border-radius: 100%;
-                text-align: center;
-                transition: all 0.5s;
-                scroll-snap-align: center;
-
+        .main{
+            height: 80vh;
+            width: 100vw;
+            scroll-snap-align: center;
+            overflow: scroll;
+            scroll-snap-type: x mandatory;
+        }
+            .fleches{
+                position: absolute;
+                /* je vais retravailler le positionnement */
+                /* bottom: 50%; */
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 95vw;
             }
-                .planete:active{
-                    width: 60vw;
-                    height: 60vw;
+                .fleche{
+                    height: 50px;
+                    width: 50px;
+                    border-left: dashed 3px #929292;
+                    border-top: solid 3px #929292;
+                    /* border-bottom-style: double; */
+                    transition: all 0.5s;
                 }
-footer{
-    grid-row-start: 3;
-    border: solid;
-}
+                    .fleche:active{
+                        height: 55px;
+                        width: 55px;
+                        /* border-left: dashed 3px #929292; */
+                        border-top: dashed 3px #929292;
+                    }
+            .planetes{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                width: 500vw;
+                height: 80vh;
+            }
+                .planete{
+                    /* position: relative; */
+                    width: 56vw; 
+                    height: 56vw; 
+                    border-radius: 100%;
+                    text-align: center;
+                    transition: all 0.5s;
+                    scroll-snap-align: center;
+
+                }
+                    #D{
+                        background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, #005F7E 0%, rgba(0, 95, 126, 0) 94%);
+                        display: block;
+                    }
+                    #DD{
+                        background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, #94744F 0%, rgba(0, 95, 126, 0) 94%);
+                        /* display: none; */
+                    }
+                    #DDD{
+                        background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, #434250 0%, rgba(0, 95, 126, 0) 94%);
+                        /* display: none; */
+                    }
+                    .planete:active{
+                        width: 60vw;
+                        height: 60vw;
+                    }
+    footer{
+        /* grid-row-start: 3; */
+        /* border: solid blue; */
+        position: relative;
+        top: -20vh;
+        z-index: 2;
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: linear-gradient(180deg, #8d61b600 0%, #8d61b632 94%);
+    }
 
 
 
-#D{
-    background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, #005F7E 0%, rgba(0, 95, 126, 0) 94%);
-    display: block;
-}
-#DD{
-    background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, #94744F 0%, rgba(0, 95, 126, 0) 94%);
-    /* display: none; */
-}
-#DDD{
-    background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, #434250 0%, rgba(0, 95, 126, 0) 94%);
-    /* display: none; */
-}
+
