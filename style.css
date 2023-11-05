@@ -19,7 +19,7 @@ body{
     /* display: grid; */
     /* grid-template-rows: 10% 80% 10%; */
     width: 100vw;
-    height: 100svh;
+    height: 100svh 100dvh 100vh;
     background-color: black;
     color: whitesmoke;
     font-family: 'Roboto Condensed', sans-serif;
@@ -32,7 +32,7 @@ body{
         justify-content: space-around;
         align-items: center;
         height: 10vh;
-        background: linear-gradient(0deg, #8d61b600 0%, #8d61b632 94%);
+        background: linear-gradient(0deg, #8d61b600 0%, #8d61b632 94%); 
         font-family: 'Nabla', cursive;
     }
     
