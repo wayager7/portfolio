@@ -19,7 +19,7 @@ body{
     /* display: grid; */
     /* grid-template-rows: 10% 80% 10%; */
     width: 100vw;
-    height: 100svh 100dvh 100vh;
+    height: 100dvh;
     background-color: black;
     color: whitesmoke;
     font-family: 'Roboto Condensed', sans-serif;
