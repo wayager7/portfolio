@@ -58,3 +58,11 @@ document.querySelectorAll('.planete').forEach((planete) => {
         });
     });
 });
+// const container = document.querySelector('.planetes'); // Remplacez '.planete-container' par le sélecteur de votre conteneur de défilement
+
+// container.addEventListener('scroll', () => {
+//   if (container.scrollLeft + container.offsetWidth >= container.scrollWidth) {
+//     container.scrollLeft = 0;
+//   }
+// });
+
