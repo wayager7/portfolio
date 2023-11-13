@@ -60,7 +60,8 @@ body{
             scroll-snap-align: center;
             transition: all 0.5s;
             overflow-x: scroll;
-            /* display: flex; */
+            display: flex;
+            scroll-snap-type: x mandatory;
             /* flex-direction: column; */
             /* align-items: center; */
             /* justify-content: center; */
@@ -105,6 +106,7 @@ body{
                 justify-content: space-around;
                 width: 300vw;
                 height: 100dvh;
+                background-image: linear-gradient(0deg, #000000 0%, #0000007d 20%, #0000007d 80%, #000000 100%), linear-gradient(90deg, #000000 0%, #0000007d 5%, #0000007d 95%, #000000 100%), url("img/stars.jpg");
                 /* animation: slide 10s linear infinite; */
             }
                 .planete{
@@ -129,12 +131,12 @@ body{
                         /* display: block; */
                     }
                     .DD{
-                        background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, var(--DD) 0%, rgba(0, 0, 0, 0) 94%);
+                        background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, var(--DD) 0%, rgba(0, 0, 0) 94%);
                         /* display: none; */
                     }
                     .DDD{
-                        /* background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, var(--DDD) 0%, rgba(0, 0, 0, 0) 94%); */
-                        background: linear-gradient(1deg, #434250 0%, rgba(67, 66, 80, 0) 94%);
+                        background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, var(--DDD) 0%, rgba(0, 0, 0) 94%);
+                        /* background: linear-gradient(1deg, #434250 0%, rgba(67, 66, 80, 0) 94%); */
                         /* display: none; */
                     }
                     .planete:active{
