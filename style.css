@@ -55,19 +55,38 @@ body{
             padding-top: 10vh;
             height: 100vh;
             width: 100vw;
-            padding-left: 5vw;
-            padding-right: 5vw;
+            /* padding-left: 5vw; */
+            /* padding-right: 5vw; */
             scroll-snap-align: center;
             transition: all 0.5s;
             overflow-x: scroll;
             display: flex;
             scroll-snap-type: x mandatory;
-            /* flex-direction: column; */
+            flex-direction: row;
             /* align-items: center; */
-            /* justify-content: center; */
+            justify-content: space-between;
             /* position: relative; */
             /* left: -10vw; */
         }
+            .moi p{
+                padding: 10px;
+                border: solid 1px #ac1de5;
+                border-radius: 15px;
+                text-align: center;
+            }
+            .infom{
+                position: relative; 
+                z-index: 1;
+                width: 100vw;
+                border: solid white;
+            }
+                #plus{
+                    display: flex;
+                    flex-direction: column;
+                    /* justify-content: center; */
+                    align-items: center;
+                }
+
         .main{
             height: 100vh;
             width: 100vw;
@@ -106,7 +125,7 @@ body{
                 justify-content: space-around;
                 width: 300vw;
                 height: 100vh;
-                background-image: linear-gradient(0deg, #000000 0%, #0000007d 20%, #0000007d 80%, #000000 100%), linear-gradient(90deg, #000000 0%, #0000007d 5%, #0000007d 95%, #000000 100%), url("img/stars.jpg");
+                background-image: linear-gradient(0deg, #000000 0%, #0000007d 20%, #00000038 80%, #000000 100%), linear-gradient(90deg, #000000ad 0%, #0000007d 5%, #0000007d 95%, #000000ad 100%), url("img/stars.jpg");
                 /* animation: slide 10s linear infinite; */
             }
                 .planete{
@@ -156,7 +175,6 @@ body{
         background: linear-gradient(180deg, #8d61b600 0%, #8d61b632 94%);
         font-family: 'Nabla', cursive;
     }
-
 
 
 
