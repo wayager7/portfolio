@@ -1,0 +1,20 @@
+[
+    {
+        "id": "X",
+        "name": "Mercure",
+        "div1":[
+            {}
+        ],
+        "div2": [
+            {}
+        ]
+    },
+    {
+        "id": "XY",
+        "name": "Vénus"
+    },
+    {
+        "id": "XYZ",
+        "name": "Terre"
+    }
+]
