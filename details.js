@@ -16,7 +16,10 @@ console.log("initialWidth : " + initialWidth);
 
 const codeDiv = document.querySelector('.code');
 const sonsDiv = document.querySelector('.sons');
-
+const graphDiv = document.querySelector('.graph');
+const designDiv = document.querySelector('.design');
+const videoDiv = document.querySelector('.video');
+const threeDiv = document.querySelector('.three');
 // const div = document.createElement('div');
 
 // document.querySelectorAll('.planete').forEach((planete) => {
@@ -44,13 +47,29 @@ fetch('data.json')
     .then(data => {
         console.log(data);
         data[0].div1.forEach(element => {
-            console.log("encore ok");
+            console.log("code ok");
             codeDiv.innerHTML += `<div class='creation' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p></div>`;
         });
         data[0].div2.forEach(element => {
-            console.log("encore ok");
+            console.log("sons ok");
             sonsDiv.innerHTML += `<div class='creation' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p></div>`;
         });
+        // data[1].div1.forEach(element => {
+        //     console.log("graph ok");
+        //     graphDiv.innerHTML += `<div class='creation' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p></div>`;
+        // });
+        // data[1].div2.forEach(element => {
+        //     console.log("design ok");
+        //     designDiv.innerHTML += `<div class='creation' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p></div>`;
+        // });
+        // data[2].div1.forEach(element => {
+        //     console.log("video ok");
+        //     videoDiv.innerHTML += `<div class='creation' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p></div>`;
+        // });
+        // data[2].div2.forEach(element => {
+        //     console.log("3D ok");
+        //     threeDiv.innerHTML += `<div class='creation' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p></div>`;
+        // });
     })
     .catch(error => console.error('Erreur attrapée :', error));
 

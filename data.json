@@ -103,13 +103,144 @@
             }
         ]
     },
-
-
-
-
     {
         "id": "XY",
-        "name": "Vénus"
+        "name": "Vénus",
+        "div1":[
+            {
+                "name": "covers",
+                "description": "couverture d'albums ",
+                "mon role":"",
+                "membres": "",
+                "image": [
+                    {
+                        "name":"dex_Ar_ial",
+                        "description":"",
+                        "membre":"",
+                        "lien":""
+                    },
+                    {
+                        "name":"",
+                        "description":"",
+                        "membre":"",
+                        "lien":""
+                    },
+                    {
+                        "name":"",
+                        "description":"",
+                        "membre":"",
+                        "lien":""
+                    },
+                    {
+                        "name":"",
+                        "description":"",
+                        "membre":"",
+                        "lien":""
+                    },
+                    {
+                        "name":"",
+                        "description":"",
+                        "membre":"",
+                        "lien":""
+                    },
+                    {
+                        "name":"",
+                        "description":"",
+                        "membre":"",
+                        "lien":""
+                    },
+                    {
+                        "name":"",
+                        "description":"",
+                        "membre":"",
+                        "lien":""
+                    },
+                    {
+                        "name":"",
+                        "description":"",
+                        "membre":"",
+                        "lien":""
+                    }
+                ],
+                "url": "",
+                "outils": ["illustrator", "photoshop"] 
+            },
+            {
+                "name": "",
+                "description": "",
+                "mon role":"",
+                "membres": "",
+                "image": ["","",""],
+                "url": "",
+                "outils": "" 
+            },
+            {
+                "name": "",
+                "description": "",
+                "mon role":"",
+                "membres": "",
+                "image": ["","",""],
+                "url": "",
+                "outils": "" 
+            }
+
+        ],
+        "div2": [
+            {
+                "name": "catarcisse",
+                "description": "extrait de livre audio...",
+                "mon role":"monteur son, ingénieur son et commedienne de voix",
+                "membres": [
+                    {
+                        "name": "Maria O",
+                        "role": ["auteur", "directrice artistique"],
+                        "lkdn": "https://www.linkedin.com/in/maria-ouedraogo/"
+                    },
+                    {
+                        "name": "Alisson M",
+                        "role": ["auteur", "ingénieur son", "commedienne de voix"],
+                        "lkdn": "https://www.linkedin.com/in/alisson-menanteau-692711251/"
+                    },
+                    {
+                        "name": "Tania AG",
+                        "role": ["directrice artistique", "commedienne de voix"],
+                        "lkdn": "https://www.linkedin.com/in/tania-almeida-gomes-a8884a23a/"
+                    }
+                ],
+                "image": "",
+                "son": "/img/1D/travailv2.mp3",
+                "outils": "flstudio"
+            },
+            {
+                "name": "chemestry",
+                "description": "sample de musique et compoition",
+                "mon role":"",
+                "membres": "",
+                "image": "",
+                "son": "/img/1D/chimie200.mp3",
+                "outils": "flstudio"
+            },
+            {
+                "name": "good melodie",
+                "description": "sample de voix et composition",
+                "mon role":"",
+                "membres": "",
+                "image": "",
+                "son": "/img/1D/goodmélodie.wav",
+                "outils": "flstudio"
+            }
+            ,
+            {
+                "name": "K=nL²e",
+                "description": "composition",
+                "mon role":"",
+                "membres": "",
+                "image": "",
+                "son": "/img/1D/K=nL²e.wav",
+                "outils": "flstudio"
+            }
+        ]
+
     },
     {
         "id": "XYZ",

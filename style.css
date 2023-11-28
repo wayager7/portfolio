@@ -154,7 +154,7 @@ body{
                         opacity: 0;
                     }
                         .creation{
-                            border: solid greenyellow;
+                            border-bottom: solid greenyellow;
                             border-radius: 15px;
                         }
                     .D{
@@ -176,8 +176,6 @@ body{
                     }
                 
     footer{
-        /* grid-row-start: 3; */
-        /* border: solid blue; */
         position: relative;
         top: -20vh;
         z-index: 2;
