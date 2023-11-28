@@ -14,6 +14,11 @@ const computedStyles = window.getComputedStyle(planete);
 const initialWidth = computedStyles.width;
 console.log("initialWidth : " + initialWidth);
 
+const codeDiv = document.querySelector('.code');
+const sonsDiv = document.querySelector('.sons');
+
+// const div = document.createElement('div');
+
 // document.querySelectorAll('.planete').forEach((planete) => {
 //     planete.addEventListener('click', () => {
 //         document.querySelectorAll('.planete .contenu').forEach((contenu) => {
@@ -34,6 +39,20 @@ console.log("initialWidth : " + initialWidth);
 //     });
 // });
 
+fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        data[0].div1.forEach(element => {
+            console.log("encore ok");
+            codeDiv.innerHTML += `<div class='creation' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p></div>`;
+        });
+        data[0].div2.forEach(element => {
+            console.log("encore ok");
+            sonsDiv.innerHTML += `<div class='creation' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p></div>`;
+        });
+    })
+    .catch(error => console.error('Erreur attrapée :', error));
 
 document.querySelectorAll('.planete').forEach((planete) => {
     planete.addEventListener('click', () => {

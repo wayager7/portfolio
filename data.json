@@ -1,71 +1,112 @@
 [
-    {
+    { 
         "id": "X",
         "name": "Mercure",
         "div1":[
             {
                 "name": "portrait chinois",
-                "description": "d'où partons",
+                "description": "d'où je pars",
+                "mon role":"",
                 "membres": "",
-                "image": "",
-                "url": "",
-                "outils": "" 
+                "image": ["","",""],
+                "url": "https://wayager7.github.io/SAE-1.05/",
+                "outils": "visual studio code" 
             },
             {
                 "name": "MMIVIZ",
                 "description": "",
-                "membres": "",
-                "image": "",
-                "url": "",
-                "outils": ""
+                "mon role":"",
+                "membres": {
+                    "name":"morgan Z",
+                    "role": ["developpement back-end", "developpement front-end"],
+                    "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+                },
+                "image": ["","",""],
+                "url": "https://suzoka.github.io/MMIViz/",
+                "outils": ["visual studio code", "figma"]
             },
             {
                 "name": "ENT",
                 "description": "",
-                "membres": "",
-                "image": "",
+                "mon role":"",
+                "membres": [
+                    {
+                        "name": "morgan Z",
+                        "role": ["developpement back-end", "developpement front-end"],
+                        "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+                    },
+                    {
+                        "name": "Maxime S",
+                        "role": ["designeur graphique"],
+                        "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
+                    }
+                ],
+                "image": ["","",""],
                 "url": "",
-                "outils": ""
+                "outils": ["visual studio code", "figma"]
             }
 
         ],
         "div2": [
             {
                 "name": "catarcisse",
-                "description": "livre audio",
+                "description": "extrait de livre audio...",
+                "mon role":"monteur son, ingénieur son et commedienne de voix",
                 "membres": [
                     {
                         "name": "Maria O",
-                        "role": "auteur"
+                        "role": ["auteur", "directrice artistique"],
+                        "lkdn": "https://www.linkedin.com/in/maria-ouedraogo/"
                     },
                     {
                         "name": "Alisson M",
-                        "role": ["auteur", "ingénieur son", "commedienne de voix"]
+                        "role": ["auteur", "ingénieur son", "commedienne de voix"],
+                        "lkdn": "https://www.linkedin.com/in/alisson-menanteau-692711251/"
                     },
                     {
                         "name": "Tania AG",
-                        "role": ["directrice artistique", "commedienne de voix"]
+                        "role": ["directrice artistique", "commedienne de voix"],
+                        "lkdn": "https://www.linkedin.com/in/tania-almeida-gomes-a8884a23a/"
                     }
                 ],
                 "image": "",
-                "outils": ""
+                "son": "/img/1D/travailv2.mp3",
+                "outils": "flstudio"
             },
             {
-                "name": "MMIVIZ",
-                "description": "",
+                "name": "chemestry",
+                "description": "sample de musique et compoition",
+                "mon role":"",
                 "membres": "",
                 "image": "",
-                "outils": ""
+                "son": "/img/1D/chimie200.mp3",
+                "outils": "flstudio"
             },
             {
-                "name": "ENT",
-                "description": "",
+                "name": "good melodie",
+                "description": "sample de voix et composition",
+                "mon role":"",
                 "membres": "",
                 "image": "",
-                "outils": ""
+                "son": "/img/1D/goodmélodie.wav",
+                "outils": "flstudio"
+            }
+            ,
+            {
+                "name": "K=nL²e",
+                "description": "composition",
+                "mon role":"",
+                "membres": "",
+                "image": "",
+                "son": "/img/1D/K=nL²e.wav",
+                "outils": "flstudio"
             }
         ]
     },
+
+
+
+
     {
         "id": "XY",
         "name": "Vénus"
