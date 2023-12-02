@@ -35,7 +35,7 @@ body{
         justify-content: space-around;
         align-items: center;
         height: 10vh;
-        background: linear-gradient(0deg, #8d61b600 0%, #8d61b632 94%); 
+        background: linear-gradient(0deg, #8d61b600 0%, #8d61b632 100%); 
         font-family: 'Nabla', cursive;
         font-size: 1.5rem;
     }
@@ -144,10 +144,14 @@ body{
                     transition: all 0.5s;
                     scroll-snap-align: center;
                     /* border: solid white; */
+                    overflow: hidden;
 
                 }
                     .planete h1{
                         margin-top: 9vh;
+                        /* display: flex; */
+                        /* justify-content: center; */
+                        /* align-items: center; */
                     }
                     .contenu {
                         display: none;
@@ -178,6 +182,8 @@ body{
                                     flex-direction: column;
                                     width: 80vw;
                                     margin: 5vw;
+                                    overflow: scroll;
+                                    background-image: linear-gradient(0deg, #000000 0%, #00000050 20%, #00000050 80%, #000000 100%), linear-gradient(90deg, #000000ad 0%, #00000050 20%, #00000050 80%, #000000ad 100%);
                                 }
                                 .projet{
                                     border: 2px solid #e5d11d;
@@ -188,7 +194,12 @@ body{
                                     flex-direction: column;
                                     width: 80vw;
                                     margin: 5vw;
+                                    overflow: scroll;
+                                    background-image: linear-gradient(0deg, #000000 0%, #00000050 20%, #00000050 80%, #000000 100%), linear-gradient(90deg, #000000ad 0%, #00000050 20%, #00000050 80%, #000000ad 100%);
                                 }
+                                    .image{
+                                        display: none;
+                                    }
                     .D{
                         background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, var(--D) 0%, rgb(0, 0, 0) 100%);
                         /* display: block; */
