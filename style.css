@@ -150,15 +150,47 @@ body{
                         margin-top: 9vh;
                     }
                     .contenu {
-                        /* display: none; */
-                        opacity: 0;
+                        display: none;
+                        /* display: block; */
+                        /* opacity: 0; */
+                
                     }
-                        .creation{
-                            border-bottom: solid greenyellow;
-                            border-radius: 15px;
+                        .domaine{
+                            display: flex;
+                            flex-direction: row;
+                            /* flex-wrap: wrap; */
+                            /* justify-content: space-evenly; */
+                            height: 40vh;
+                            width: 100vw;
+                            overflow-x: scroll;
+                            /* border: solid white; */
+                            /* gap: 15vw; */
                         }
+                            .flexzone{
+                                display: flex;
+                            }
+                                .creation{
+                                    border: 2px solid #ac1de5;
+                                    border-radius: 15px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    flex-direction: column;
+                                    width: 80vw;
+                                    margin: 5vw;
+                                }
+                                .projet{
+                                    border: 2px solid #e5d11d;
+                                    border-radius: 15px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    flex-direction: column;
+                                    width: 80vw;
+                                    margin: 5vw;
+                                }
                     .D{
-                        background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, var(--D) 0%, rgb(0, 0, 0) 94%);
+                        background: radial-gradient(70.68% 70.68% at 26.19% 40.30%, var(--D) 0%, rgb(0, 0, 0) 100%);
                         /* display: block; */
                     }
                     .DD{

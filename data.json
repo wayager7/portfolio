@@ -16,11 +16,18 @@
                 "name": "MMIVIZ",
                 "description": "",
                 "mon role":"",
-                "membres": {
-                    "name":"morgan Z",
-                    "role": ["developpement back-end", "developpement front-end"],
-                    "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
-                },
+                "membres": [
+                    {
+                        "name": "morgan Z",
+                        "role": ["developpement back-end", "developpement front-end"],
+                        "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+                    },
+                    {
+                        "name": "Maxime S",
+                        "role": ["designeur graphique"],
+                        "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
+                    }
+                ],
                 "image": ["","",""],
                 "url": "https://suzoka.github.io/MMIViz/",
                 "outils": ["visual studio code", "figma"]
@@ -108,7 +115,7 @@
         "name": "Vénus",
         "div1":[
             {
-                "name": "covers",
+                "name": "gallerie covers",
                 "description": "couverture d'albums ",
                 "mon role":"",
                 "membres": "",
@@ -117,60 +124,89 @@
                         "name":"dex_Ar_ial",
                         "description":"",
                         "membre":"",
-                        "lien":""
+                        "lien":"/img/2D/graphisme/cover/dex_Ar_ial.png"
                     },
                     {
-                        "name":"",
+                        "name":"endors toi",
                         "description":"",
                         "membre":"",
-                        "lien":""
+                        "lien":"/img/2D/graphisme/cover/endors_toi.png"
                     },
                     {
-                        "name":"",
+                        "name":"gathib",
                         "description":"",
                         "membre":"",
-                        "lien":""
+                        "lien":"/img/2D/graphisme/cover/gathib.png"
                     },
                     {
-                        "name":"",
+                        "name":"Kn'L",
                         "description":"",
                         "membre":"",
-                        "lien":""
+                        "lien":"/img/2D/graphisme/cover/KnL.png"
                     },
                     {
-                        "name":"",
+                        "name":"w&t",
                         "description":"",
                         "membre":"",
-                        "lien":""
+                        "lien":"simpson.png"
                     },
                     {
-                        "name":"",
+                        "name":"walari go",
                         "description":"",
                         "membre":"",
-                        "lien":""
+                        "lien":"/img/2D/graphisme/cover/walarigo.png"
                     },
                     {
-                        "name":"",
+                        "name":"wayager and inisible",
                         "description":"",
                         "membre":"",
-                        "lien":""
+                        "lien":"/img/2D/graphisme/cover/wa_and_in.png"
                     },
                     {
-                        "name":"",
+                        "name":"we hate you wally",
                         "description":"",
                         "membre":"",
-                        "lien":""
+                        "lien":"/img/2D/graphisme/cover/whyw.png"
                     }
                 ],
                 "url": "",
                 "outils": ["illustrator", "photoshop"] 
             },
             {
-                "name": "",
-                "description": "",
+                "name": "gallerie NFT",
+                "description": "a mes debuts en graphisme durant le premier confinement, je m'amusais a realiser des images pour mes amis en repartant systematiquement d'une meme base: des NFT avant l'heure",
                 "mon role":"",
                 "membres": "",
-                "image": ["","",""],
+                "image": [
+                    {
+                        "name":"Baptiste",
+                        "lien":"/img/2D/graphisme/nft/BAPTISTE NST.png"
+                    },
+                    {
+                        "name":"Emile",
+                        "lien":"/img/2D/graphisme/nft/EMILE NST.png"
+                    },
+                    {
+                        "name":"Eugenie",
+                        "lien":"/img/2D/graphisme/nft/EUGENIE NST.png"
+                    },
+                    {
+                        "name":"Gatien",
+                        "lien":"/img/2D/graphisme/nft/GATIEN NST.png"
+                    },
+                    {
+                        "name":"Laura",
+                        "lien":"/img/2D/graphisme/nft/LAURA NST.png"
+                    },
+                    {
+                        "name":"Livia",
+                        "lien":"/img/2D/graphisme/nft/LIVIA NST.png"
+                    },
+                    {
+                        "name":"Timothee",
+                        "lien":"/img/2D/graphisme/nft/TIMO NST.png"
+                    }
+                    ],
                 "url": "",
                 "outils": "" 
             },
