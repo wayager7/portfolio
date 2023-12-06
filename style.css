@@ -73,6 +73,23 @@ body{
                 margin-top: 1vh;
                 font-size: 1.3rem;
             }
+                .didi{
+                    scroll-snap-align: end;
+                }
+                .divtete{
+                    position: absolute; 
+                    z-index: 0; 
+                    width: 90vw; 
+                    height: 90vw; 
+                    transform: translate(56vw, 15vh);
+                }
+                    .divtete img{
+                        width: 90vw; 
+                        height: 90vw;
+                    }
+                .divwhyw{
+                    display: none;
+                }
                 .infom{
                     display: flex;
                     flex-direction: column;
@@ -229,6 +246,52 @@ body{
         background: linear-gradient(180deg, #8d61b600 0%, #8d61b632 94%);
         font-family: 'Nabla', cursive;
     }
+@media screen and (min-width: 600px) {
+    main::-webkit-scrollbar {
+        display: none;
+      }
+    .didi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .domaine::-webkit-scrollbar {
+        display: none;
+      }
+    .divtete{
+        display: none;
+        }
+    .divwhyw{
+        display: block;
+        position: absolute;
+        width: auto;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        overflow: hidden;
 
+    }
+        .divwhyw img{
+            width: 60vw;
+        }
+    .planete{
+        width: 56vh; 
+        height: 56vh;
+    }
+        .creation{
+            width: 30vw;
+            margin: 2vw;
+            overflow: hidden;
+        }
+        .projet{
+            width: 30vw;
+            margin: 2vw;
+            overflow: hidden;
+        }
+}
 
 
