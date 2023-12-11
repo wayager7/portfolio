@@ -76,6 +76,12 @@ body{
                 .didi{
                     scroll-snap-align: end;
                 }
+                    .descri{
+                        /* display: flex;
+                        flex-direction: column; */
+                        position: relative;
+                        margin-left: 3vw;
+                    }
                 .divtete{
                     position: absolute; 
                     z-index: 0; 
