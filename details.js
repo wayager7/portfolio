@@ -22,14 +22,27 @@ fetch('data.json')
         console.log(data);
         data[0].div1.forEach(element => {
             let contenu = "";
-            contenu += `<div class='projet' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p>`;
-            if (element.membres.length > 0) {
-                element.membres.forEach(membre => {
-                    contenu += `<a href="${membre.lkdn}">${membre.name}</a>`;
-                });
-            }
-            contenu += `</div>`;
+            contenu += `<div class='projet' id=${element.name}><a href="#"><h2>${element.name}</h2><p>${element.description}</p>`;
+            // if (element.membres.length > 0) {
+            //     element.membres.forEach(membre => {
+            //         contenu += `<a href="${membre.lkdn}">${membre.name}</a>`;
+            //     });
+            // }
+            contenu += `<p>${element.outils}</p>`
+            contenu += `</a></div>`;
             codeDiv.innerHTML += contenu;
+        });
+        data[0].div2.forEach(element => {
+            let contenu = "";
+            contenu += `<div class='projet' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p>`;
+            // if (element.membres.length > 0) {
+            //     element.membres.forEach(membre => {
+            //         contenu += `<a href="${membre.lkdn}">${membre.name}</a>`;
+            //     });
+            // }
+            contenu += `<p>${element.outils}</p>`
+            contenu += `</div>`;
+            sonsDiv.innerHTML += contenu;
         });
     })
     .catch(error => console.error('Erreur attrapée :', error));
@@ -67,3 +80,22 @@ document.querySelectorAll('.planete').forEach((planete) => {
 //   }
 // });
 
+
+//
+function $_GET(param) {
+	var vars = {};
+	window.location.href.replace( location.hash, '' ).replace( 
+		/[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+		function( m, key, value ) { // callback
+			vars[key] = value !== undefined ? value : '';
+		}
+	);
+
+	if ( param ) {
+		return vars[param] ? vars[param] : null;	
+	}
+	return vars;
+}
+//si j'ajoute "?test=Hello, World!" en fin d'url 
+//j'ai ce resultat "/?test=Hello,%20World!"
+var deco_var = decodeURI( $_GET( 'test' ) );
