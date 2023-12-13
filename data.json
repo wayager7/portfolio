@@ -4,6 +4,7 @@
         "name": "Mercure",
         "div1":[
             {
+                "id": "1",
                 "name": "portrait_chinois",
                 "description": "d'où je pars",
                 "mon role":"",
@@ -13,6 +14,7 @@
                 "outils": "visual studio code" 
             },
             {
+                "id": "2",
                 "name": "MMIVIZ",
                 "description": "",
                 "mon role":"",
@@ -33,6 +35,7 @@
                 "outils": ["visual studio code", "figma"]
             },
             {
+                "id": "3",
                 "name": "ENT",
                 "description": "",
                 "mon role":"",
@@ -56,6 +59,7 @@
         ],
         "div2": [
             {
+                "id": "4",
                 "name": "catarcisse",
                 "description": "extrait de livre audio...",
                 "mon role":"monteur son, ingénieur son et commedienne de voix",
@@ -81,6 +85,7 @@
                 "outils": "flstudio"
             },
             {
+                "id": "5",
                 "name": "chemestry",
                 "description": "sample de musique et compoition",
                 "mon role":"",
@@ -90,6 +95,7 @@
                 "outils": "flstudio"
             },
             {
+                "id": "6",
                 "name": "good melodie",
                 "description": "sample de voix et composition",
                 "mon role":"",
@@ -100,6 +106,7 @@
             }
             ,
             {
+                "id": "7",  
                 "name": "K=nL²e",
                 "description": "composition",
                 "mon role":"",
@@ -115,6 +122,7 @@
         "name": "Vénus",
         "div1":[
             {
+                "id": "8",
                 "name": "gallerie covers",
                 "description": "couverture d'albums ",
                 "mon role":"",
@@ -173,6 +181,7 @@
                 "outils": ["illustrator", "photoshop"] 
             },
             {
+                "id": "9",
                 "name": "gallerie NFT",
                 "description": "a mes debuts en graphisme durant le premier confinement, je m'amusais a realiser des images pour mes amis en repartant systematiquement d'une meme base: des NFT avant l'heure",
                 "mon role":"",
@@ -211,6 +220,7 @@
                 "outils": "" 
             },
             {
+                "id": "10",
                 "name": "",
                 "description": "",
                 "mon role":"",
@@ -223,6 +233,7 @@
         ],
         "div2": [
             {
+                "id": "11",
                 "name": "catarcisse",
                 "description": "extrait de livre audio...",
                 "mon role":"monteur son, ingénieur son et commedienne de voix",
@@ -248,6 +259,7 @@
                 "outils": "flstudio"
             },
             {
+                "id": "12",
                 "name": "chemestry",
                 "description": "sample de musique et compoition",
                 "mon role":"",
@@ -257,6 +269,7 @@
                 "outils": "flstudio"
             },
             {
+                "id": "13",
                 "name": "good melodie",
                 "description": "sample de voix et composition",
                 "mon role":"",
@@ -267,6 +280,7 @@
             }
             ,
             {
+                "id": "14",
                 "name": "K=nL²e",
                 "description": "composition",
                 "mon role":"",

@@ -16,35 +16,59 @@ const threeDiv = document.querySelector('.three');
 // const div = document.createElement('div');
 
 //creer une variable contenue que je vais remplir au fur et a mesure de donnée provenant de mon json pour tout mettre directement dans une balise class "flexzone"
-let keys;
+let x = 0;
+let y = 0;
 fetch('data.json')
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        data[0].div1.forEach(element => {
-            
-
-            // let data = json;
-            keys = Object.keys(data)
-            console.log(keys)
-            console.log(element)
-            console.log(data)
-            let flexz = document.querySelector('.contenu .flexzone');
-            let contenu = "";
-            contenu += `<h2>${element.name}</h2><p>${element.description}</p>`;
-            contenu += `<p>${element.outils}</p>`
-            keys.forEach(function (key) {
+        let flexz = document.querySelectorAll('.contenu .flexzone');
+        for(let x = 0; x < data.length; x++){
+            data[x].div1.forEach((element) => {
+                console.log(x);
                 let projectElement = document.createElement('div');
-            projectElement.className = "projet " + element.name;
-            projectElement.id = key;
-                // contenu += `</div>`;
-                projectElement.innerHTML = contenu;
+                projectElement.id = "projet" + element.id;
+                projectElement.className = "projet " + element.name;
+
+                let contenu = ""; 
+                contenu += `<h2>${element.name}</h2><p>${element.description}</p>`;
+                contenu += `<p>${element.outils}</p>`
+
+                // Ajouter un gestionnaire d'événements clic
                 projectElement.addEventListener('click', function () {
-                    console.log(key);
-                    window.location.href = "data.html?id=" + key;
+                    console.log(projectElement.id);
+                    window.location.href = "data.html?id=" + projectElement.id;
                 });
-                flexz.appendChild(projectElement);
+                projectElement.innerHTML = contenu;
+                flexz[y].appendChild(projectElement);
             });
+            y++;
+            data[x].div2.forEach((element) => {
+                console.log(x);
+                let projectElement = document.createElement('div');
+                projectElement.id = "projet" + element.id;
+                projectElement.className = "projet " + element.name;
+
+                let contenu = ""; 
+                contenu += `<h2>${element.name}</h2><p>${element.description}</p>`;
+                contenu += `<p>${element.outils}</p>`
+
+                // Ajouter un gestionnaire d'événements clic
+                projectElement.addEventListener('click', function () {
+                    console.log(projectElement.id);
+                    window.location.href = "data.html?id=" + projectElement.id;
+                });
+                projectElement.innerHTML = contenu;
+                flexz[y].appendChild(projectElement);
+                x++;
+            });
+        }
+        // y++;
+        // console.log("x =", x);
+        // console.log("y =", y);
+    });
+
+
 
             // let contenu = "";
             //     contenu += `<div class='projet' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p>`;
@@ -60,7 +84,6 @@ fetch('data.json')
 
             
             // codeDiv.innerHTML += contenu;
-        });
 
 
 
@@ -76,7 +99,7 @@ fetch('data.json')
         //     contenu += `</div>`;
         //     sonsDiv.innerHTML += contenu;
         // });
-    })
+    // })
     // .catch(error => console.error('Erreur attrapée :', error));
 
 
