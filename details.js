@@ -16,16 +16,23 @@ const threeDiv = document.querySelector('.three');
 // const div = document.createElement('div');
 
 //creer une variable contenue que je vais remplir au fur et a mesure de donnée provenant de mon json pour tout mettre directement dans une balise class "flexzone"
-let x = 0;
-let y = 0;
+// let x = 0;
+// let y = 0;
+// let z = 0
+// while (y < 6) {
+
+// }
 fetch('data.json')
     .then(response => response.json())
     .then(data => {
         console.log(data);
         let flexz = document.querySelectorAll('.contenu .flexzone');
-        for(let x = 0; x < data.length; x++){
-            data[x].div1.forEach((element) => {
-                console.log(x);
+        // if(y < 6) return;
+        // for(let x = 0; x < data.length; x++){
+        // for(let y = 0; y < data.length; y++){
+        data.forEach(function(donnee) {
+            donnee.div1.forEach((element) => {
+                // console.log(x);
                 let projectElement = document.createElement('div');
                 projectElement.id = "projet" + element.id;
                 projectElement.className = "projet " + element.name;
@@ -43,8 +50,9 @@ fetch('data.json')
                 flexz[y].appendChild(projectElement);
             });
             y++;
-            data[x].div2.forEach((element) => {
-                console.log(x);
+            console.log("y apres incr", y)
+            donnee.div2.forEach((element) => {
+                // console.log(x);
                 let projectElement = document.createElement('div');
                 projectElement.id = "projet" + element.id;
                 projectElement.className = "projet " + element.name;
@@ -60,14 +68,17 @@ fetch('data.json')
                 });
                 projectElement.innerHTML = contenu;
                 flexz[y].appendChild(projectElement);
-                x++;
             });
-        }
-        // y++;
-        // console.log("x =", x);
-        // console.log("y =", y);
+            y++;
+            console.log("y =", y);
+        })
     });
 
+
+
+
+        // console.log("x =", x);
+        // console.log("y =", y);
 
 
             // let contenu = "";
