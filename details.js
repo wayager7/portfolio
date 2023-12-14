@@ -17,7 +17,7 @@ const threeDiv = document.querySelector('.three');
 
 //creer une variable contenue que je vais remplir au fur et a mesure de donnée provenant de mon json pour tout mettre directement dans une balise class "flexzone"
 // let x = 0;
-// let y = 0;
+let y = 0;
 // let z = 0
 // while (y < 6) {
 
