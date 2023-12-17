@@ -1,5 +1,14 @@
 [
     {
+        "name": "qu'est ce que tu cherches ? 👀",
+        "description": "bienvenue",
+        "mon role":"developpeur",
+        "membres": "",
+        "image": "/img/1D/pc/pc.png",
+        "url": "https://wayager7.github.io/SAE-1.05/",
+        "outils": "visual studio code, photoshop" 
+    },
+    {
         "name": "portrait chinois",
         "description": "d'où je pars",
         "mon role":"developpeur, graphsite",
