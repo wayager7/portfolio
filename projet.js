@@ -11,9 +11,7 @@ fetch('projet.json')
         console.log(json)
         console.log(data)
         let imageElement = document.querySelector('body .projet .image');
-        
         //image
-        console.log(data["image"])
         if (data["image"]) {
             if (Array.isArray(data["image"])) {
                 data["image"].forEach((image) => {
@@ -26,37 +24,54 @@ fetch('projet.json')
                 // document.querySelector('body .image').style.displey = "flex"
             }
         } else {
+            if (data["video"]) {
+                imageElement.innerHTML += '<iframe width="560" height="315" class="video" src="' + data["video"] + '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+            } else {
             imageElement.innerHTML += "<p>Image non disponible<br>désolé ;p<br>cela dit, si vous etes interessé, vous pouvez me contacter pour en savoir plus...</p>";
+            }
         }
-
         //son
         if (data["son"]) {
             imageElement.innerHTML += "<audio controls> <source src=" + data["son"] +" type='audio/mpeg' alt='image projet' ></audio>";
         }
-        
+        //video
+       
+
+
         //titre
         document.querySelector('body .projet .details').innerHTML += "<h1 class='name'>" + data["name"] + "</h1>"
-        
         //description
-        document.querySelector('body .projet .details').innerHTML += "<div class='texte'><p>" + data["description"] + "</p></div>"
-
+        document.querySelector('body .projet .details').innerHTML += "<div class='texte'><p>" + data["description"] + "</p></div><br>"
         //roles
         if (data["mon role"]) {
             document.querySelector('body .projet .details').innerHTML += "<p class='roles'> dans ce projet, j'ai été " + data["mon role"] + "</p>"
         }
+
+
+
         //membres
         if (data["membres"]) {
-            if(data["membres"]>1) {
-                document.querySelector('body .projet .details').innerHTML += "" + data["membres"] + ""
-            }else{
-                document.querySelector('body .projet .details').innerHTML += "<a href=" + data["url"] + ">" + data["membres"] + "</a>"
+            if (Array.isArray(data["membres"])) {
+                document.querySelector('body .projet .details').innerHTML += "<p>j'ai pu travailler avec</p>";
+                data["membres"].forEach((membres) => {
+                    document.querySelector('body .projet .details').innerHTML += "<ul>";
+                    document.querySelector('body .projet .details ul').innerHTML += "<li><a href=" + membres.lkdn + ">" + membres.name + "</a><br>" + membres.role + "</li>";
+                });
+            } else {
+                let membre = data["membres"];
+                document.querySelector('body .projet .details').innerHTML += "<p>j'ai pu travailler avec <a href=" + membre.lkdn + ">" + membre.name + "</a> qui a été " + membre.role +"</p><br>";
             }
         }
 
         //liens
-        document.querySelector('body .projet .details').innerHTML += "<a href=" + data["url"] + ">" + "voir le projet </a>"
-        
+        if (data["url"]) {
+            document.querySelector('body .projet .details').innerHTML += "<a href=" + data["url"] + ">" + "voir le projet </a>"
+        }
+
         //outils
+        if (data["outils"]) {
+            document.querySelector('body .projet .details').innerHTML += "<br><p>outils utilisés " + data["outils"] + "</p>"
+        }
         
         
         

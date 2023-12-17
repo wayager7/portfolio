@@ -233,7 +233,7 @@
         ],
         "div2": [
             {
-                "id": "13",
+                "id": "11",
                 "name": "mmind",
                 "description": "",
                 "mon role":"",
@@ -242,7 +242,7 @@
                 "outils": "figma, photoshop"
             },
             {
-                "id": "14",
+                "id": "12",
                 "name": "pixel4charity",
                 "description": "refont de la communication d'un projet citoyen",
                 "mon role":"",
@@ -257,7 +257,7 @@
         "name": "Terre",
         "div1":[
             {
-                "id": "15",
+                "id": "13",
                 "name": "gif publicitaire",
                 "description": "d'où je pars",
                 "mon role":"",
@@ -267,7 +267,7 @@
                 "outils": "visual studio code" 
             },
             {
-                "id": "16",
+                "id": "14",
                 "name": "motion design",
                 "description": "",
                 "mon role":"",
@@ -288,7 +288,7 @@
                 "outils": ["visual studio code", "figma"]
             },
             {
-                "id": "17",
+                "id": "15",
                 "name": "interview",
                 "description": "",
                 "mon role":"",
@@ -311,7 +311,7 @@
         ],
         "div2": [
             {
-                "id": "18",
+                "id": "16",
                 "name": "STI2DCOIN",
                 "description": "",
                 "mon role":"",
@@ -321,7 +321,7 @@
                 "outils": "visual studio code" 
             },
             {
-                "id": "19",
+                "id": "17",
                 "name": "epée",
                 "description": "",
                 "mon role":"",
@@ -331,7 +331,7 @@
                 "outils": ["visual studio code", "figma"]
             },
             {
-                "id": "20",
+                "id": "18",
                 "name": "donut",
                 "description": "",
                 "mon role":"",

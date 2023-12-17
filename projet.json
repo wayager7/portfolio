@@ -185,56 +185,71 @@
         "outils": "figma, photoshop, notion"
     },
     {
-        "id": "15",
         "name": "gif publicitaire",
-        "description": "d'où je pars",
+        "description": "premiere réalisation d'un gif dans le cadre d'un devoir",
         "mon role":"",
         "membres": "",
-        "image": ["","",""],
-        "url": "https://wayager7.github.io/SAE-1.05/",
-        "outils": "visual studio code" 
-    },
-    {
-        "id": "16",
-        "name": "motion design",
-        "description": "",
-        "mon role":"",
-        "membres": [
-            {
-                "name": "morgan Z",
-                "role": ["developpement back-end", "developpement front-end"],
-                "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
-            },
-            {
-                "name": "Maxime S",
-                "role": ["designeur graphique"],
-                "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
-            }
-        ],
-        "image": ["","",""],
-        "url": "https://suzoka.github.io/MMIViz/",
-        "outils": ["visual studio code", "figma"]
-    },
-    {
-        "id": "17",
-        "name": "interview",
-        "description": "",
-        "mon role":"",
-        "membres": [
-            {
-                "name": "morgan Z",
-                "role": ["developpement back-end", "developpement front-end"],
-                "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
-            },
-            {
-                "name": "Maxime S",
-                "role": ["designeur graphique"],
-                "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
-            }
-        ],
-        "image": ["","",""],
+        "image": "",
         "url": "",
-        "outils": ["visual studio code", "figma"]
+        "outils": "photoshop, after effects",
+        "video":"https://www.youtube.com/embed/3t_Jvw18fRc?si=ozCcSb5itHvOyPxg"
+    },
+    {
+        "name": "motion design",
+        "description": "realisation d'une video pour publiciter un projet citoyen",
+        "mon role":"motion designer, graphiste et monteur vidéo",
+        "membres": [
+            {
+                "name": "Konan-Hoel",
+                "role": "designer, graphiste",
+                "lkdn": ""
+            },
+            {
+                "name": "yannick",
+                "role": "develloper",
+                "lkdn": ""
+            },
+            {
+                "name": "noah",
+                "role": "develloper",
+                "lkdn": ""
+            },
+            {
+                "name": "guillaume",
+                "role": "graphiste",
+                "lkdn": ""
+            }
+        ],
+        "image": "",
+        "url": "",
+        "outils": "after effect, illustrator, premiere pro",
+        "video":"https://www.youtube.com/embed/aTU2W-Qleio?si=sH3lWqzIWGDizsmu"
+    },
+    {
+        "name": "interview",
+        "description": "dans le cadre d'une SAE nous avons interviewé un regisseur et je me suis chargé du montage de vidéo",
+        "mon role":"ingenieur son et monteur vidéo",
+        "membres": [
+            {
+                "name": "Konan-Hoel",
+                "role": "cadreur",
+                "lkdn": ""
+            },
+            {
+                "name": "yannick",
+                "role": "chef de projet",
+                "lkdn": ""
+            },
+            {
+                "name": "guillaume D",
+                "role": "lumiere",
+                "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+            }
+        ],
+        "image": "",
+        "url": "",
+        "outils": "after effect, premiere pro",
+        "video":"https://www.youtube.com/embed/NtPgAtM33eM?si=hSOdU-t0T3g1V2uv"
     },
     {
         "id": "18",
@@ -242,7 +257,7 @@
         "description": "",
         "mon role":"",
         "membres": "",
-        "image": ["","",""],
+        "image": "",
         "url": "",
         "outils": "visual studio code" 
     },
@@ -252,7 +267,7 @@
         "description": "",
         "mon role":"",
         "membres": "",
-        "image": ["","",""],
+        "image": "",
         "url": "",
         "outils": ["visual studio code", "figma"]
     },
