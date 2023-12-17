@@ -5,7 +5,7 @@
         "div1":[
             {
                 "id": "1",
-                "name": "portrait_chinois",
+                "name": "portrait chinois",
                 "description": "d'où je pars",
                 "mon role":"",
                 "membres": "",
@@ -221,8 +221,8 @@
             },
             {
                 "id": "10",
-                "name": "",
-                "description": "",
+                "name": "logo mmi",
+                "description": "proposition de logo mmi",
                 "mon role":"",
                 "membres": "",
                 "image": ["","",""],
@@ -233,67 +233,113 @@
         ],
         "div2": [
             {
-                "id": "11",
-                "name": "catarcisse",
-                "description": "extrait de livre audio...",
-                "mon role":"monteur son, ingénieur son et commedienne de voix",
-                "membres": [
-                    {
-                        "name": "Maria O",
-                        "role": ["auteur", "directrice artistique"],
-                        "lkdn": "https://www.linkedin.com/in/maria-ouedraogo/"
-                    },
-                    {
-                        "name": "Alisson M",
-                        "role": ["auteur", "ingénieur son", "commedienne de voix"],
-                        "lkdn": "https://www.linkedin.com/in/alisson-menanteau-692711251/"
-                    },
-                    {
-                        "name": "Tania AG",
-                        "role": ["directrice artistique", "commedienne de voix"],
-                        "lkdn": "https://www.linkedin.com/in/tania-almeida-gomes-a8884a23a/"
-                    }
-                ],
-                "image": "",
-                "son": "/img/1D/travailv2.mp3",
-                "outils": "flstudio"
-            },
-            {
-                "id": "12",
-                "name": "chemestry",
-                "description": "sample de musique et compoition",
-                "mon role":"",
-                "membres": "",
-                "image": "",
-                "son": "/img/1D/chimie200.mp3",
-                "outils": "flstudio"
-            },
-            {
                 "id": "13",
-                "name": "good melodie",
-                "description": "sample de voix et composition",
+                "name": "mmind",
+                "description": "",
                 "mon role":"",
                 "membres": "",
                 "image": "",
-                "son": "/img/1D/goodmélodie.wav",
-                "outils": "flstudio"
-            }
-            ,
+                "outils": "figma, photoshop"
+            },
             {
                 "id": "14",
-                "name": "K=nL²e",
-                "description": "composition",
+                "name": "pixel4charity",
+                "description": "refont de la communication d'un projet citoyen",
                 "mon role":"",
                 "membres": "",
                 "image": "",
-                "son": "/img/1D/K=nL²e.wav",
-                "outils": "flstudio"
+                "outils": "figma, photoshop, notion"
             }
         ]
-
     },
     {
         "id": "XYZ",
-        "name": "Terre"
+        "name": "Terre",
+        "div1":[
+            {
+                "id": "15",
+                "name": "gif publicitaire",
+                "description": "d'où je pars",
+                "mon role":"",
+                "membres": "",
+                "image": ["","",""],
+                "url": "https://wayager7.github.io/SAE-1.05/",
+                "outils": "visual studio code" 
+            },
+            {
+                "id": "16",
+                "name": "motion design",
+                "description": "",
+                "mon role":"",
+                "membres": [
+                    {
+                        "name": "morgan Z",
+                        "role": ["developpement back-end", "developpement front-end"],
+                        "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+                    },
+                    {
+                        "name": "Maxime S",
+                        "role": ["designeur graphique"],
+                        "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
+                    }
+                ],
+                "image": ["","",""],
+                "url": "https://suzoka.github.io/MMIViz/",
+                "outils": ["visual studio code", "figma"]
+            },
+            {
+                "id": "17",
+                "name": "interview",
+                "description": "",
+                "mon role":"",
+                "membres": [
+                    {
+                        "name": "morgan Z",
+                        "role": ["developpement back-end", "developpement front-end"],
+                        "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+                    },
+                    {
+                        "name": "Maxime S",
+                        "role": ["designeur graphique"],
+                        "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
+                    }
+                ],
+                "image": ["","",""],
+                "url": "",
+                "outils": ["visual studio code", "figma"]
+            }
+        ],
+        "div2": [
+            {
+                "id": "18",
+                "name": "STI2DCOIN",
+                "description": "",
+                "mon role":"",
+                "membres": "",
+                "image": ["","",""],
+                "url": "",
+                "outils": "visual studio code" 
+            },
+            {
+                "id": "19",
+                "name": "epée",
+                "description": "",
+                "mon role":"",
+                "membres": "",
+                "image": ["","",""],
+                "url": "",
+                "outils": ["visual studio code", "figma"]
+            },
+            {
+                "id": "20",
+                "name": "donut",
+                "description": "",
+                "mon role":"",
+                "membres": "",
+                "image": ["","",""],
+                "url": "",
+                "outils": ["visual studio code", "figma"]
+            }
+        ]
     }
 ]

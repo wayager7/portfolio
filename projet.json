@@ -1,0 +1,322 @@
+[
+    {
+        "name": "portrait chinois",
+        "description": "d'où je pars",
+        "mon role":"developpeur, graphsite",
+        "membres": "",
+        "image": "/img/1D/pc/pc.png",
+        "url": "https://wayager7.github.io/SAE-1.05/",
+        "outils": "visual studio code, photoshop" 
+    },
+    {
+        "name": "MMIVIZ",
+        "description": "",
+        "mon role":"developpeur front-end, designeur graphique",
+        "membres": 
+            {
+                "name": "morgan Z",
+                "role": ["developpement back-end", "developpement front-end"],
+                "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+            },
+        "image": "/img/1D/mmiviz/accueil.png",
+        "url": "https://suzoka.github.io/MMIViz/",
+        "outils": "visual studio code, figma"
+    },
+    {
+        "name": "ENT",
+        "description": "",
+        "mon role":"developpeur front-end, designeur graphique",
+        "membres": [
+            {
+                "name": "morgan Z",
+                "role": ["developpement back-end", "developpement front-end"],
+                "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+            },
+            {
+                "name": "Maxime S",
+                "role": ["designeur graphique"],
+                "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
+            }
+        ],
+        "image": "",
+        "url": "",
+        "outils": "visual studio code, figma"
+    },
+    {
+        "name": "catarcisse",
+        "description": "extrait de livre audio...",
+        "mon role":"monteur son, ingénieur son et commedienne de voix",
+        "membres": [
+            {
+                "name": "Maria O",
+                "role": ["auteur", "directrice artistique"],
+                "lkdn": "https://www.linkedin.com/in/maria-ouedraogo/"
+            },
+            {
+                "name": "Alisson M",
+                "role": ["auteur", "ingénieur son", "commedienne de voix"],
+                "lkdn": "https://www.linkedin.com/in/alisson-menanteau-692711251/"
+            },
+            {
+                "name": "Tania AG",
+                "role": ["directrice artistique", "commedienne de voix"],
+                "lkdn": "https://www.linkedin.com/in/tania-almeida-gomes-a8884a23a/"
+            }
+        ],
+        "image": "/img/1D/catar/catar.png",
+        "son": "/img/1D/catar/travailv2.mp3",
+        "outils": "flstudio"
+    },
+    {
+        "name": "chemestry",
+        "description": "sample de musique et compoition",
+        "mon role":"",
+        "membres": "",
+        "image": "/img/1D/chimie/chimimg.png",
+        "son": "/img/1D/chimie/chimie200.mp3",
+        "outils": "flstudio"
+    },
+    {
+        "name": "good melodie",
+        "description": "sample de voix et composition",
+        "mon role":"",
+        "membres": "",
+        "image": "/img/1D/gdmld/gdmld.png",
+        "son": "/img/1D/gdmld/goodmélodie.wav",
+        "outils": "flstudio"
+    }
+    ,
+    {
+        "name": "K=nL²e",
+        "description": "composition",
+        "mon role":"",
+        "membres": "",
+        "image": "/img/1D/knl/flknl.png",
+        "son": "/img/1D/knl/K=nL²e.wav",
+        "outils": "flstudio"
+    },
+    {
+        "name": "gallerie covers",
+        "description": "couverture d'albums ",
+        "mon role":"",
+        "membres": "",
+        "image": [
+            {
+                "name":"dex_Ar_ial",
+                "lien":"/img/2D/graphisme/cover/dex_Ar_ial.png"
+            },
+            {
+                "name":"endors toi",
+                "lien":"/img/2D/graphisme/cover/endors_toi.png"
+            },
+            {
+                "name":"gathib",
+                "lien":"/img/2D/graphisme/cover/gathib.png"
+            },
+            {
+                "name":"Kn'L",
+                "lien":"/img/2D/graphisme/cover/KnL.png"
+            },
+            {
+                "name":"w&t",
+                "lien":"/img/2D/graphisme/cover/simpson.png"
+            },
+            {
+                "name":"walari go",
+                "lien":"/img/2D/graphisme/cover/walarigo.png"
+            },
+            {
+                "name":"wayager and inisible",
+                "lien":"/img/2D/graphisme/cover/wa_and_in.png"
+            },
+            {
+                "name":"we hate you wally",
+                "lien":"/img/2D/graphisme/cover/whyw.png"
+            }
+        ],
+        "url": "",
+        "outils": "illustrator, photoshop"
+    },
+    {
+        "name": "gallerie NFT",
+        "description": "a mes debuts en graphisme durant le premier confinement, je m'amusais a realiser des images pour mes amis en repartant systematiquement d'une meme base: des NFT avant l'heure",
+        "mon role":"",
+        "membres": "",
+        "image": [
+            {
+                "name":"Baptiste",
+                "lien":"/img/2D/graphisme/nft/BAPTISTE NST.png"
+            },
+            {
+                "name":"Emile",
+                "lien":"/img/2D/graphisme/nft/EMILE NST.png"
+            },
+            {
+                "name":"Eugenie",
+                "lien":"/img/2D/graphisme/nft/EUGENIE NST.png"
+            },
+            {
+                "name":"Gatien",
+                "lien":"/img/2D/graphisme/nft/GATIEN NST.png"
+            },
+            {
+                "name":"Laura",
+                "lien":"/img/2D/graphisme/nft/LAURA NST.png"
+            },
+            {
+                "name":"Livia",
+                "lien":"/img/2D/graphisme/nft/LIVIA NST.png"
+            },
+            {
+                "name":"Timothee",
+                "lien":"/img/2D/graphisme/nft/TIMO NST.png"
+            }
+            ],
+        "url": "",
+        "outils": "illustrator, photoshop" 
+    },
+    {
+        "name": "logo mmi",
+        "description": "proposition de logo mmi",
+        "mon role":"",
+        "membres": "",
+        "image": ["/img/2D/graphisme/logommi/logosb.png","/img/2D/graphisme/logommi/logosn.png","/img/2D/graphisme/logommi/logodb.png","/img/2D/graphisme/logommi/logodn.png"],
+        "url": "",
+        "outils": "illustrator, photoshop" 
+    },
+    {
+        "name": "mmind",
+        "description": "",
+        "mon role":"designer",
+        "membres": [
+            {
+                "name": "morgan Z",
+                "role": "designer",
+                "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+            },
+            {
+                "name": "Bastien",
+                "role": "designer",
+                "lkdn": ""
+            },
+            {
+                "name": "Robin",
+                "role": "designer",
+                "lkdn": ""
+            }
+        ],
+        "image": ["/img/2D/design/mmind/ancien.png","/img/2D/design/mmind/idee.png","/img/2D/design/mmind/final.png"],
+        "outils": "figma, photoshop"
+    },
+    {
+        "name": "pixel4charity",
+        "description": "refont de la communication d'un projet citoyen",
+        "mon role":"graphiste",
+        "membres": [
+            {
+                "name": "Konan-Hoel",
+                "role": "designer, graphiste",
+                "lkdn": ""
+            },
+            {
+                "name": "yannick",
+                "role": "develloper",
+                "lkdn": ""
+            },
+            {
+                "name": "noah",
+                "role": "develloper",
+                "lkdn": ""
+            },
+            {
+                "name": "guillaume",
+                "role": "graphiste",
+                "lkdn": ""
+            }
+        ],
+        "image": ["/img/2D/design/p4c/p4c1.png","/img/2D/design/p4c/p4c1_1.png","/img/2D/design/p4c/p4c1_5.png","/img/2D/design/p4c/p4c1blc.png"],
+        "outils": "figma, photoshop, notion"
+    },
+    {
+        "id": "15",
+        "name": "gif publicitaire",
+        "description": "d'où je pars",
+        "mon role":"",
+        "membres": "",
+        "image": ["","",""],
+        "url": "https://wayager7.github.io/SAE-1.05/",
+        "outils": "visual studio code" 
+    },
+    {
+        "id": "16",
+        "name": "motion design",
+        "description": "",
+        "mon role":"",
+        "membres": [
+            {
+                "name": "morgan Z",
+                "role": ["developpement back-end", "developpement front-end"],
+                "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+            },
+            {
+                "name": "Maxime S",
+                "role": ["designeur graphique"],
+                "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
+            }
+        ],
+        "image": ["","",""],
+        "url": "https://suzoka.github.io/MMIViz/",
+        "outils": ["visual studio code", "figma"]
+    },
+    {
+        "id": "17",
+        "name": "interview",
+        "description": "",
+        "mon role":"",
+        "membres": [
+            {
+                "name": "morgan Z",
+                "role": ["developpement back-end", "developpement front-end"],
+                "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+            },
+            {
+                "name": "Maxime S",
+                "role": ["designeur graphique"],
+                "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
+            }
+        ],
+        "image": ["","",""],
+        "url": "",
+        "outils": ["visual studio code", "figma"]
+    },
+    {
+        "id": "18",
+        "name": "STI2DCOIN",
+        "description": "",
+        "mon role":"",
+        "membres": "",
+        "image": ["","",""],
+        "url": "",
+        "outils": "visual studio code" 
+    },
+    {
+        "id": "19",
+        "name": "epée",
+        "description": "",
+        "mon role":"",
+        "membres": "",
+        "image": ["","",""],
+        "url": "",
+        "outils": ["visual studio code", "figma"]
+    },
+    {
+        "id": "20",
+        "name": "donut",
+        "description": "",
+        "mon role":"",
+        "membres": "",
+        "image": ["","",""],
+        "url": "",
+        "outils": ["visual studio code", "figma"]
+    }
+]

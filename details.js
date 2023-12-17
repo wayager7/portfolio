@@ -7,12 +7,12 @@ const computedStyles = window.getComputedStyle(planete);
 const initialWidth = computedStyles.width;
 console.log("initialWidth : " + initialWidth);
 
-const codeDiv = document.querySelector('#code .flexzone');
-const sonsDiv = document.querySelector('#sons .flexzone');
-const graphDiv = document.querySelector('.graph');
-const designDiv = document.querySelector('.design');
-const videoDiv = document.querySelector('.video');
-const threeDiv = document.querySelector('.three');
+// const codeDiv = document.querySelector('#code .flexzone');
+// const sonsDiv = document.querySelector('#sons .flexzone');
+// const graphDiv = document.querySelector('.graph');
+// const designDiv = document.querySelector('.design');
+// const videoDiv = document.querySelector('.video');
+// const threeDiv = document.querySelector('.three');
 // const div = document.createElement('div');
 
 //creer une variable contenue que je vais remplir au fur et a mesure de donnée provenant de mon json pour tout mettre directement dans une balise class "flexzone"
@@ -20,8 +20,6 @@ const threeDiv = document.querySelector('.three');
 let y = 0;
 // let z = 0
 // while (y < 6) {
-
-// }
 fetch('data.json')
     .then(response => response.json())
     .then(data => {
@@ -34,7 +32,7 @@ fetch('data.json')
             donnee.div1.forEach((element) => {
                 // console.log(x);
                 let projectElement = document.createElement('div');
-                projectElement.id = "projet" + element.id;
+                projectElement.id = element.id;
                 projectElement.className = "projet " + element.name;
 
                 let contenu = ""; 
@@ -54,7 +52,7 @@ fetch('data.json')
             donnee.div2.forEach((element) => {
                 // console.log(x);
                 let projectElement = document.createElement('div');
-                projectElement.id = "projet" + element.id;
+                projectElement.id = element.id;
                 projectElement.className = "projet " + element.name;
 
                 let contenu = ""; 
@@ -73,46 +71,6 @@ fetch('data.json')
             console.log("y =", y);
         })
     });
-
-
-
-
-        // console.log("x =", x);
-        // console.log("y =", y);
-
-
-            // let contenu = "";
-            //     contenu += `<div class='projet' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p>`;
-            //     // let contenu = "";
-            //     // contenu += `<div class='projet' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p>`;
-            //     // if (element.membres.length > 0) {
-            //     //     element.membres.forEach(membre => {
-            //     //         contenu += `<a href="${membre.lkdn}">${membre.name}</a>`;
-            //     //     });
-            //     // }
-            //     contenu += `<p>${element.outils}</p>`
-            //     contenu += `</div>`;
-
-            
-            // codeDiv.innerHTML += contenu;
-
-
-
-        // data[0].div2.forEach(element => {
-        //     let contenu = "";
-        //     contenu += `<div class='projet' id=${element.name}><h2>${element.name}</h2><p>${element.description}</p>`;
-        //     // if (element.membres.length > 0) {
-        //     //     element.membres.forEach(membre => {
-        //     //         contenu += `<a href="${membre.lkdn}">${membre.name}</a>`;
-        //     //     });
-        //     // }
-        //     contenu += `<p>${element.outils}</p>`
-        //     contenu += `</div>`;
-        //     sonsDiv.innerHTML += contenu;
-        // });
-    // })
-    // .catch(error => console.error('Erreur attrapée :', error));
-
 
 
 
@@ -140,35 +98,3 @@ document.querySelectorAll('.planete').forEach((planete) => {
         });
     });
 });
-
-
-
-
-
-// // test
-// fetch('data.json')
-//     .then((response) => response.json())
-//     .then((json) => {
-//         let data = json;
-//         keys = Object.keys(data)
-//         console.log(keys)
-//         let projectContainer = document.querySelector('#projects .content');
-
-
-//         keys.forEach(function (key) {
-//             let projectElement = document.createElement('div');
-//             projectElement.classList.add('project-box');
-//             projectElement.id = key;
-//             console.log(key);
-//             projectElement.style.backgroundImage = "url('" + data[key].image + "')";
-//             projectElement.style.borderColor = data[key].couleur  
-                    
-//             // Ajouter un gestionnaire d'événements clic
-//             projectElement.addEventListener('click', function () {
-//                 console.log(key);
-//                 window.location.href = "projet.html?id=" + key;
-//             });
-
-//             projectContainer.appendChild(projectElement);
-//         });
-//     });
