@@ -21,7 +21,7 @@
     </header>
     <main>
         <section class="moi" style="position: relative;">
-            <img src="img/fleche.png" width="110%"alt="" style="position: absolute; right: 0%; top: -2%; opacity: 50%;">
+            <!-- <img src="img/fleche.png" width="110%"alt="" style="position: absolute; right: 0%; top: -2%; opacity: 50%;"> -->
             <!-- <img src="img/fleche.png" width="110%"alt="" style="rotate: 90deg; position: absolute; left: -50%; top: -22%; opacity: 50%;"> -->
             <div class="didi">
                 <h1 style="font-size: 5rem; width: 100vw; padding-left: 3vw;">Waldi Fiaga</h1>
@@ -32,8 +32,14 @@
                     <h3>Designer UX/UI</h3>
                     <h3>Graphiste</h3>
                 </div>
-                <a href="#plus">plus sur moi<div class="fleche"></div></a>
-                <a href="#main">mes projets<div class="fleche"></div></a>
+                <a href="#plus" style="display: flex; align-items: center; flex-direction: row; position: absolute; right: 0; z-index: 3;">
+                    <p class="link">plus sur moi</p>
+                    <div class="fleche" style="rotate: 135deg; transform: translate(50%, 50%);"></div>
+                </a>
+                <a href="#main" style="position: absolute; display: flex; flex-direction: column; align-items: center; bottom: 10vw; right: 50%; z-index: 3;">
+                    <p class="link">mes projets</p>
+                    <div class="fleche" style="rotate: -135deg; transform: translate(50%, 50%);"></div>
+                </a>
             </div>
             <div class="divtete"><img src="img/tete.png" alt=""></div>
             <div class="divwhyw"><img src="img/whyw.png" alt=""></div>
