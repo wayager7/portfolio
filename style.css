@@ -17,6 +17,9 @@
     0% { transform: translateX(0); }
     100% { transform: translateX(-100%); }
 } */
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     /* display: grid; */
@@ -26,6 +29,7 @@ body{
     background-color: black;
     color: whitesmoke;
     font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
 }
 
     header{
@@ -84,6 +88,24 @@ body{
                         position: relative;
                         margin-left: 3vw;
                     }
+                    .fless{
+                        text-decoration: none;
+                        color: white;
+                        display: flex; 
+                        align-items: center;
+                        mix-blend-mode: difference;
+                        position: absolute;
+                        flex-direction: column;
+                        z-index: 3;
+                    }
+                        .link{
+                            margin: 20px;
+                            font-size: 2rem;
+                        }
+                        .fless div{
+                            transform: translate(50%, 50%);
+                            rotate: -135deg;
+                        }
                 .divtete{
                     position: absolute; 
                     z-index: 0; 
