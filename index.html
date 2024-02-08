@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <a href="#wally"class="logo"><img src="img/Group 4.png" width="70%" alt=""></a>
+        <a href="#" class="logo"><img src="img/Group 4.png" width="70%" alt=""></a>
         <a href="https://fr.linkedin.com/in/waldi-fiaga-b96392251" class="linkedin"><img src="img/Group 1.png" width="70%" alt=""></a>
         <a href="https://www.instagram.com/waldi_vrai/" class="instagram"><img src="img/Group 2.png" width="70%" alt=""></a>
         <a href="https://github.com/wayager7" class="github"><img src="img/Group 3.png" width="70%" alt=""></a>
@@ -36,23 +36,10 @@
                     <span class="link">+ sur moi</span>
                     <div class="fleche"></div>
                 </div>
-                <div href="#" class="fless down" style="transform: translate(50%, 50%); bottom: 10vw; right: 50%;">
+                <div class="fless down" style="transform: translate(50%, 50%); bottom: 10vw; right: 50%;">
                     <span class="link">mes projets</span>
                     <div class="fleche"></div>
                 </div>
-                <script>
-                window.addEventListener('load', function() {
-                    var down = document.querySelector('.down');
-                    down.addEventListener('click', function(event) {
-                        event.preventDefault();
-                        var main = document.querySelector('.main');
-                        window.scrollBy({
-                            top: -window.innerHeight, // scroll de 100vh vers le haut
-                            behavior: 'smooth'
-                        });
-                    });
-                });
-                </script>
             </div>
             <div class="divtete"><img src="img/tete.png" alt=""></div>
             <div class="divwhyw"><img src="img/whyw.png" alt=""></div>
@@ -63,10 +50,12 @@
                 <p>fiaga c'est plus fort que toi, voici <a href="/noirpfcv.pdf" target="_blank">mon CV</a></p>
                 <p>maybe i'm just a bizarre little person who walks back and forth</p>
                 <p>immortel comme rockefeller</p>
-                <a href="#" class="fless down" style=" bottom: 10vw; right: 0%;">
+                <div class="fless down" style=" bottom: 10vw; right: 0%;">
                     <span class="link">projets ?</span>
                     <div class="fleche"></div>
-                </a>
+                </div>
+                
+                
             </div>
         </section>
         <section class="main" id="main">
