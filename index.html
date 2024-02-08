@@ -32,14 +32,27 @@
                     <h3>Designer UX/UI</h3>
                     <h3>Graphiste</h3>
                 </div>
-                <a href="#trois" class="fless" style="transform: translate(0%, -50%); right: -70px; rotate: -90deg;">
+                <div href="#" class="fless right" style="transform: translate(0%, -50%); right: -70px; rotate: -90deg;">
                     <span class="link">+ sur moi</span>
                     <div class="fleche"></div>
-                </a>
-                <a href="#main" class="fless" style="transform: translate(50%, 50%); bottom: 10vw; right: 50%;">
+                </div>
+                <div href="#" class="fless down" style="transform: translate(50%, 50%); bottom: 10vw; right: 50%;">
                     <span class="link">mes projets</span>
                     <div class="fleche"></div>
-                </a>
+                </div>
+                <script>
+                window.addEventListener('load', function() {
+                    var down = document.querySelector('.down');
+                    down.addEventListener('click', function(event) {
+                        event.preventDefault();
+                        var main = document.querySelector('.main');
+                        window.scrollBy({
+                            top: -window.innerHeight, // scroll de 100vh vers le haut
+                            behavior: 'smooth'
+                        });
+                    });
+                });
+                </script>
             </div>
             <div class="divtete"><img src="img/tete.png" alt=""></div>
             <div class="divwhyw"><img src="img/whyw.png" alt=""></div>
@@ -47,10 +60,13 @@
                 <p id="un">Bienvenue sur mon Portfolio <br>Je m'appelle Waldi Fiaga et je suis etudiant en 2eme année de BUT MMI</p>
                 <p id="deux">je suis un curieux qui aime tenter de resoudre des problemes logiques et apprendres</p>
                 <p id="trois">touche a tout, je fais du developpement front mais aux heures perdu du montage photo et vidéo, du graphisme et de la musique</p>
-                <p>fiaga c'est plus fort que toi, voici <a href="/CV_Waldi_FIAGA (2).pdf">mon CV</a></p>
+                <p>fiaga c'est plus fort que toi, voici <a href="/noirpfcv.pdf" target="_blank">mon CV</a></p>
                 <p>maybe i'm just a bizarre little person who walks back and forth</p>
                 <p>immortel comme rockefeller</p>
-                <a href="#main">mes projets ?<div class="fleche"></div></a>
+                <a href="#" class="fless down" style=" bottom: 10vw; right: 0%;">
+                    <span class="link">projets ?</span>
+                    <div class="fleche"></div>
+                </a>
             </div>
         </section>
         <section class="main" id="main">
@@ -58,6 +74,7 @@
                 <div class="fleche" style="transform: rotate(-45deg);"></div>
                 <div class="fleche" style="transform: rotate(135deg); order: 5;"></div>
             </section> -->
+        
             <section class="planetes">
                 <section class="planete D" id="005F7E">
                     <h1>X</h1>
@@ -114,14 +131,20 @@
                     </div>
                 </section>
             </section>
+            <section class="navigg" id="000000">
+                <div class="sphr p005F7E"></div>
+                <div class="sphr p94744F"></div>
+                <div class="sphr p434250"></div>
+                <div class="sphrpr p000000"></div>
+            </section>
         </section>
     </main>
     
-    <footer>
+    <!-- <footer> -->
         <!-- <a href="#"class="logo">logo</a>
         <a href="#" class="linkedin">lkdn</a>
         <a href="#" class="instagram">inst</a>
         <a href="#" class="github">gthb</a> -->
-    </footer>
+    <!-- </footer> -->
 </body>
 </html>

@@ -98,3 +98,18 @@ document.querySelectorAll('.planete').forEach((planete) => {
         });
     });
 });
+
+
+console.log("ici ça fonctionne encore");
+
+document.addEventListener('DOMContentLoaded', function() {
+    var down = document.querySelector('.down');
+    down.addEventListener('click', function(event) {
+      event.preventDefault();
+      window.scrollBy({
+        top: window.innerHeight, // 100vh
+        behavior: 'smooth'
+      });
+      console.log('down');
+    });
+  });
