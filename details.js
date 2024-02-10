@@ -100,30 +100,3 @@ document.querySelectorAll('.planete').forEach((planete) => {
 });
 
 
-console.log("ici ça fonctionne encore");
-
-console.log("ici ça fonctionne encore");
-window.addEventListener('load', function() {
-    var downs = document.querySelectorAll('.down');
-    downs.forEach(function(down) {
-      down.addEventListener('click', function(event) {
-        event.preventDefault();
-        var main = document.querySelector('.main');
-        main.scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-  });
-
-window.addEventListener('load', function() {
-    var right = document.querySelector('.right');
-    right.addEventListener('click', function(event) {
-      event.preventDefault();
-      var infom = document.querySelector('.infom');
-      infom.scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  });
-
