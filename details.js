@@ -7,13 +7,7 @@ const computedStyles = window.getComputedStyle(planete);
 const initialWidth = computedStyles.width;
 console.log("initialWidth : " + initialWidth);
 
-// const codeDiv = document.querySelector('#code .flexzone');
-// const sonsDiv = document.querySelector('#sons .flexzone');
-// const graphDiv = document.querySelector('.graph');
-// const designDiv = document.querySelector('.design');
-// const videoDiv = document.querySelector('.video');
-// const threeDiv = document.querySelector('.three');
-// const div = document.createElement('div');
+
 
 //creer une variable contenue que je vais remplir au fur et a mesure de donnée provenant de mon json pour tout mettre directement dans une balise class "flexzone"
 // let x = 0;
@@ -33,6 +27,7 @@ fetch('data.json')
                 // console.log(x);
                 let projectElement = document.createElement('div');
                 projectElement.id = element.id;
+                projectElement.style.backgroundImage = `linear-gradient(0deg, #000000 0%, #00000050 20%, #00000050 80%, #000000 100%), linear-gradient(90deg, #000000ad 0%, #00000050 20%, #00000050 80%, #000000ad 100%), url(${element.image})`;
                 projectElement.className = "projet " + element.name;
 
                 let contenu = ""; 
@@ -53,6 +48,7 @@ fetch('data.json')
                 // console.log(x);
                 let projectElement = document.createElement('div');
                 projectElement.id = element.id;
+                projectElement.style.backgroundImage = `linear-gradient(0deg, #000000 0%, #00000050 20%, #00000050 80%, #000000 100%), linear-gradient(90deg, #000000ad 0%, #00000050 20%, #00000050 80%, #000000ad 100%), url(${element.image})`;
                 projectElement.className = "projet " + element.name;
 
                 let contenu = ""; 

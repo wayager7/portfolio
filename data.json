@@ -7,110 +7,51 @@
                 "id": "1",
                 "name": "portrait chinois",
                 "description": "projet scolaire",
-                "image": "",
-                "url": "https://wayager7.github.io/SAE-1.05/",
-                "outils": "HTML CSS Javascript" 
+                "image": "/list/1.png",
+                "outils": "HTML, CSS et JS" 
             },
             {
                 "id": "2",
                 "name": "MMIVIZ",
                 "description": "projet scolaire",
-                "mon role":"",
-                "membres": [
-                    {
-                        "name": "morgan Z",
-                        "role": ["developpement back-end", "developpement front-end"],
-                        "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
-                    },
-                    {
-                        "name": "Maxime S",
-                        "role": ["designeur graphique"],
-                        "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
-                    }
-                ],
-                "image": ["","",""],
-                "url": "https://suzoka.github.io/MMIViz/",
-                "outils": ["HTML", " CSS", " Javascript", " figma"]
+                "image": "/list/2.png",
+                "outils": "HTML, CSS, JS et figma"
             },
             {
                 "id": "3",
                 "name": "ENT",
-                "description": "",
-                "mon role":"",
-                "membres": [
-                    {
-                        "name": "morgan Z",
-                        "role": ["developpement back-end", "developpement front-end"],
-                        "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
-                    },
-                    {
-                        "name": "Maxime S",
-                        "role": ["designeur graphique"],
-                        "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
-                    }
-                ],
-                "image": ["","",""],
-                "url": "",
-                "outils": ["visual studio code", "figma"]
+                "description": "projet scolaire",
+                "image": "/list/3.png",
+                "outils": "PHP, CSS, JS et figma"
             }
-
         ],
         "div2": [
             {
                 "id": "4",
                 "name": "catarcisse",
-                "description": "extrait de livre audio...",
-                "mon role":"monteur son, ingénieur son et commedienne de voix",
-                "membres": [
-                    {
-                        "name": "Maria O",
-                        "role": ["auteur", "directrice artistique"],
-                        "lkdn": "https://www.linkedin.com/in/maria-ouedraogo/"
-                    },
-                    {
-                        "name": "Alisson M",
-                        "role": ["auteur", "ingénieur son", "commedienne de voix"],
-                        "lkdn": "https://www.linkedin.com/in/alisson-menanteau-692711251/"
-                    },
-                    {
-                        "name": "Tania AG",
-                        "role": ["directrice artistique", "commedienne de voix"],
-                        "lkdn": "https://www.linkedin.com/in/tania-almeida-gomes-a8884a23a/"
-                    }
-                ],
-                "image": "",
-                "son": "/img/1D/travailv2.mp3",
-                "outils": "flstudio"
+                "description": "projet scolaire",
+                "image": "/list/4.webp",
+                "outils": "flstudio et google drive"
             },
             {
                 "id": "5",
                 "name": "chemestry",
-                "description": "sample de musique et compoition",
-                "mon role":"",
-                "membres": "",
-                "image": "",
-                "son": "/img/1D/chimie200.mp3",
+                "description": "projet personnel",
+                "image": "/list/5.webp",
                 "outils": "flstudio"
             },
             {
                 "id": "6",
                 "name": "good melodie",
-                "description": "sample de voix et composition",
-                "mon role":"",
-                "membres": "",
-                "image": "",
-                "son": "/img/1D/goodmélodie.wav",
+                "description": "projet personnel",
+                "image": "/list/6.png",
                 "outils": "flstudio"
-            }
-            ,
+            },
             {
                 "id": "7",  
                 "name": "K=nL²e",
-                "description": "composition",
-                "mon role":"",
-                "membres": "",
-                "image": "",
-                "son": "/img/1D/K=nL²e.wav",
+                "description": "projet personnel",
+                "image": "/list/7.png",
                 "outils": "flstudio"
             }
         ]
@@ -122,110 +63,23 @@
             {
                 "id": "8",
                 "name": "gallerie covers",
-                "description": "couverture d'albums ",
-                "mon role":"",
-                "membres": "",
-                "image": [
-                    {
-                        "name":"dex_Ar_ial",
-                        "description":"",
-                        "membre":"",
-                        "lien":"/img/2D/graphisme/cover/dex_Ar_ial.png"
-                    },
-                    {
-                        "name":"endors toi",
-                        "description":"",
-                        "membre":"",
-                        "lien":"/img/2D/graphisme/cover/endors_toi.png"
-                    },
-                    {
-                        "name":"gathib",
-                        "description":"",
-                        "membre":"",
-                        "lien":"/img/2D/graphisme/cover/gathib.png"
-                    },
-                    {
-                        "name":"Kn'L",
-                        "description":"",
-                        "membre":"",
-                        "lien":"/img/2D/graphisme/cover/KnL.png"
-                    },
-                    {
-                        "name":"w&t",
-                        "description":"",
-                        "membre":"",
-                        "lien":"simpson.png"
-                    },
-                    {
-                        "name":"walari go",
-                        "description":"",
-                        "membre":"",
-                        "lien":"/img/2D/graphisme/cover/walarigo.png"
-                    },
-                    {
-                        "name":"wayager and inisible",
-                        "description":"",
-                        "membre":"",
-                        "lien":"/img/2D/graphisme/cover/wa_and_in.png"
-                    },
-                    {
-                        "name":"we hate you wally",
-                        "description":"",
-                        "membre":"",
-                        "lien":"/img/2D/graphisme/cover/whyw.png"
-                    }
-                ],
-                "url": "",
-                "outils": ["illustrator", "photoshop"] 
+                "description": "projet personnel",
+                "image": "/img/2D/graphisme/cover/dex_Ar_ial.png",
+                "outils": "illustrator et photoshop"
             },
             {
                 "id": "9",
                 "name": "gallerie NFT",
-                "description": "a mes debuts en graphisme durant le premier confinement, je m'amusais a realiser des images pour mes amis en repartant systematiquement d'une meme base: des NFT avant l'heure",
-                "mon role":"",
-                "membres": "",
-                "image": [
-                    {
-                        "name":"Baptiste",
-                        "lien":"/img/2D/graphisme/nft/BAPTISTE NST.png"
-                    },
-                    {
-                        "name":"Emile",
-                        "lien":"/img/2D/graphisme/nft/EMILE NST.png"
-                    },
-                    {
-                        "name":"Eugenie",
-                        "lien":"/img/2D/graphisme/nft/EUGENIE NST.png"
-                    },
-                    {
-                        "name":"Gatien",
-                        "lien":"/img/2D/graphisme/nft/GATIEN NST.png"
-                    },
-                    {
-                        "name":"Laura",
-                        "lien":"/img/2D/graphisme/nft/LAURA NST.png"
-                    },
-                    {
-                        "name":"Livia",
-                        "lien":"/img/2D/graphisme/nft/LIVIA NST.png"
-                    },
-                    {
-                        "name":"Timothee",
-                        "lien":"/img/2D/graphisme/nft/TIMO NST.png"
-                    }
-                    ],
-                "url": "",
-                "outils": "" 
+                "description": "projet personnel",
+                "image": "/img/2D/graphisme/cover/dex_Ar_ial.png",
+                "outils": "photoshop" 
             },
             {
                 "id": "10",
                 "name": "logo mmi",
-                "description": "proposition de logo mmi",
-                "mon role":"",
-                "membres": "",
-                "image": ["","",""],
-                "url": "",
-                "outils": "" 
+                "description": "projet personnel",
+                "image": "/img/2D/graphisme/cover/dex_Ar_ial.png",
+                "outils": "illustrator et photoshop" 
             }
 
         ],
@@ -233,20 +87,16 @@
             {
                 "id": "11",
                 "name": "mmind",
-                "description": "",
-                "mon role":"",
-                "membres": "",
-                "image": "",
-                "outils": "figma, photoshop"
+                "description": "projet scolaire",
+                "image": "/list/11.png",
+                "outils": "figma et photoshop"
             },
             {
                 "id": "12",
                 "name": "pixel4charity",
-                "description": "refont de la communication d'un projet citoyen",
-                "mon role":"",
-                "membres": "",
-                "image": "",
-                "outils": "figma, photoshop, notion"
+                "description": "projet scolaire",
+                "image": "/list/12.png",
+                "outils": "figma, photoshop et notion"
             }
         ]
     },
@@ -257,86 +107,46 @@
             {
                 "id": "13",
                 "name": "gif publicitaire",
-                "description": "d'où je pars",
-                "mon role":"",
-                "membres": "",
-                "image": ["","",""],
-                "url": "https://wayager7.github.io/SAE-1.05/",
-                "outils": "visual studio code" 
+                "description": "projet scolaire",
+                "image": "/list/13.jpg",
+                "outils": "after effect et photoshop" 
             },
             {
                 "id": "14",
                 "name": "motion design",
-                "description": "",
-                "mon role":"",
-                "membres": [
-                    {
-                        "name": "morgan Z",
-                        "role": ["developpement back-end", "developpement front-end"],
-                        "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
-                    },
-                    {
-                        "name": "Maxime S",
-                        "role": ["designeur graphique"],
-                        "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
-                    }
-                ],
-                "image": ["","",""],
-                "url": "https://suzoka.github.io/MMIViz/",
-                "outils": ["visual studio code", "figma"]
+                "description": "projet scolaire",
+                "image": "/list/14.png",
+                "outils": "after effect, premiere pro, photoshop, illustrator et figma"
             },
             {
                 "id": "15",
                 "name": "interview",
-                "description": "",
-                "mon role":"",
-                "membres": [
-                    {
-                        "name": "morgan Z",
-                        "role": ["developpement back-end", "developpement front-end"],
-                        "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
-                    },
-                    {
-                        "name": "Maxime S",
-                        "role": ["designeur graphique"],
-                        "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
-                    }
-                ],
-                "image": ["","",""],
-                "url": "",
-                "outils": ["visual studio code", "figma"]
+                "description": "projet scolaire",
+                "image": "/list/15.png",
+                "outils": "after effect, premiere pro et photoshop"
             }
         ],
         "div2": [
             {
                 "id": "16",
                 "name": "STI2DCOIN",
-                "description": "",
-                "mon role":"",
-                "membres": "",
-                "image": ["","",""],
-                "url": "",
-                "outils": "visual studio code" 
+                "description": "projet personnel",
+                "image": "/list/16.png",
+                "outils": "photoshop et blender" 
             },
             {
                 "id": "17",
                 "name": "epée",
-                "description": "",
-                "mon role":"",
-                "membres": "",
-                "image": ["","",""],
-                "url": "",
-                "outils": ["visual studio code", "figma"]
+                "description": "projet personnel",
+                "image": "/img/2D/graphisme/cover/dex_Ar_ial.png",
+                "outils": "photoshop et blender"
             },
             {
                 "id": "18",
                 "name": "donut",
-                "description": "",
-                "mon role":"",
-                "membres": "",
-                "image": ["","",""],
-                "url": "",
-                "outils": ["visual studio code", "figma"]
+                "description": "projet personnel",
+                "image": "/img/2D/graphisme/cover/dex_Ar_ial.png",
+                "outils": "blender"
             }
         ]
     }
