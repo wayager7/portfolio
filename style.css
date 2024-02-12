@@ -35,7 +35,7 @@ body{
         position: relative;
         z-index: 2;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         height: 10vh;
         background: linear-gradient(0deg, #8d61b600 0%, #8d61b632 100%); 
@@ -266,10 +266,10 @@ body{
                         /* background: linear-gradient(1deg, #434250 0%, rgba(67, 66, 80, 0) 94%); */
                         /* display: none; */
                     }
-                    .planete:active{
+                    /* .planete:active{
                         width: 60vw;
                         height: 60vw;
-                    }
+                    } */
                     .naviggcont{
                         position: sticky;
                         top: 0%;

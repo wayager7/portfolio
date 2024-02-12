@@ -6,17 +6,15 @@
             {
                 "id": "1",
                 "name": "portrait chinois",
-                "description": "d'où je pars",
-                "mon role":"",
-                "membres": "",
-                "image": ["","",""],
+                "description": "projet scolaire",
+                "image": "",
                 "url": "https://wayager7.github.io/SAE-1.05/",
-                "outils": "visual studio code" 
+                "outils": "HTML CSS Javascript" 
             },
             {
                 "id": "2",
                 "name": "MMIVIZ",
-                "description": "",
+                "description": "projet scolaire",
                 "mon role":"",
                 "membres": [
                     {
@@ -32,7 +30,7 @@
                 ],
                 "image": ["","",""],
                 "url": "https://suzoka.github.io/MMIViz/",
-                "outils": ["visual studio code", "figma"]
+                "outils": ["HTML", " CSS", " Javascript", " figma"]
             },
             {
                 "id": "3",
