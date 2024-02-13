@@ -17,9 +17,9 @@
     0% { transform: translateX(0); }
     100% { transform: translateX(-100%); }
 } */
-/* html{ */
-    /* scroll-behavior: smooth; */
-/* } */
+html{ 
+    scroll-behavior: smooth;
+}
 
 body{
     /* display: grid; */
@@ -132,14 +132,36 @@ body{
                     scroll-snap-align: start;
                     align-items: flex-end;
                 }
-                    .infom #un{
+                    /* .infom #un{
                         width: 90vw;
-                    }
+                    } */
                     .infom #deux{
                         width: 60vw;
                     }
                     .infom #trois{
                         width: 50vw;
+                    }
+                    .infom .comp{
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        width: 90vw;
+                        /* height: 10vh; */
+                        flex-wrap: wrap;
+                    }
+                    .comp >*{
+                        height: 9vh;
+                        margin: 1vw;
+                    }
+                    .list{
+                        padding: 10px;
+                        padding-left: 25px;
+                        display: flex;
+                        flex-direction: column;
+                        border: solid 1px #ac1de5;
+                        border-radius: 15px;
+                        margin-right: 5vw;
+                        margin-top: 1vh;
                     }
 
         .main{
@@ -237,6 +259,7 @@ body{
                                     margin: 5vw;
                                     overflow: scroll;
                                     background-image: linear-gradient(0deg, #000000 0%, #00000050 20%, #00000050 80%, #000000 100%), linear-gradient(90deg, #000000ad 0%, #00000050 20%, #00000050 80%, #000000ad 100%);
+                                    display: none;
                                 }
                                 .projet{
                                     border: 2px solid #e5d11d;
@@ -252,6 +275,7 @@ body{
                                     /* background-image: linear-gradient(0deg, #000000 0%, #00000050 20%, #00000050 80%, #000000 100%), linear-gradient(90deg, #000000ad 0%, #00000050 20%, #00000050 80%, #000000ad 100%); */
                                     background-position: center;
                                     background-size: cover;
+                                    cursor: pointer;
                                 }
                                 .projet p{
                                     display: none;
@@ -398,12 +422,18 @@ body{
         height: 56vh;
     }
         .creation{
-            width: 30vw;
+            width: 6vw;
             margin: 2vw;
             overflow: hidden;
+            display: flex;
+            position: sticky;
+            left: 2vw;
+        }
+        .creation>*{
+            transform: rotate(-90deg);
         }
         .projet{
-            width: 30vw;
+            width: 25vw;
             margin: 2vw;
             overflow: hidden;
         }
