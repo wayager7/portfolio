@@ -74,7 +74,7 @@ body{
                 padding: 10px;
                 border: solid 1px #ac1de5;
                 border-radius: 15px;
-                text-align: center;
+                text-align: right;
                 margin-right: 5vw;
                 margin-left: 5vw;
                 margin-top: 1vh;
@@ -89,6 +89,9 @@ body{
                         position: relative;
                         margin-left: 3vw;
                     }
+                    .infom .fless{
+                        display: none;
+                    }
                     .fless{
                         text-decoration: none;
                         color: white;
@@ -98,8 +101,7 @@ body{
                         position: absolute;
                         flex-direction: column;
                         z-index: 3;
-                        /* translate: 0 10vh; */
-                    }
+                    }     
                         .link{
                             margin: 20px;
                             font-size: 2rem;
@@ -131,22 +133,23 @@ body{
                     /* border: solid white; */
                     scroll-snap-align: start;
                     align-items: flex-end;
+                    height: 100vh;
+                    /* overflow: scroll; */
                 }
                     /* .infom #un{
                         width: 90vw;
                     } */
-                    .infom #deux{
-                        width: 60vw;
+                    /* .infom #deux{
+                        width: 50vw;
                     }
                     .infom #trois{
                         width: 50vw;
-                    }
+                    } */
                     .infom .comp{
                         display: flex;
                         justify-content: space-around;
                         align-items: center;
                         width: 90vw;
-                        /* height: 10vh; */
                         flex-wrap: wrap;
                     }
                     .comp >*{
@@ -384,6 +387,39 @@ body{
         background: linear-gradient(180deg, #8d61b600 0%, #8d61b632 94%);
         font-family: 'Nabla', cursive;
     }
+@media screen and (min-width: 920px) {
+    .infom{
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .infom .fless{
+        display: flex; 
+    }
+    .fless{
+        text-decoration: none;
+        color: white;
+        display: flex; 
+        align-items: center;
+        mix-blend-mode: difference;
+        position: absolute;
+        flex-direction: column;
+        z-index: 3;
+    }
+        
+        .link{
+            margin: 20px;
+            font-size: 2rem;
+        }
+        .fless div{
+            transform: translate(50%, 50%);
+            rotate: -135deg;
+        }
+    
+}
 @media screen and (min-width: 600px) {
     main::-webkit-scrollbar {
         display: none;
@@ -436,5 +472,57 @@ body{
             width: 25vw;
             margin: 2vw;
             overflow: hidden;
+        }
+    /* .infom{
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    } */
+        #un{
+            grid-row-start: 1;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-end: 3;
+            /* align-self: center;
+            justify-self: center; */
+            text-align: center;
+            margin: 1vw;
+            margin-left: 5vw;
+        }
+        #deux{
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 3;
+            grid-column-end: 6;
+            text-align: left;
+            margin-right: 5vw;
+            width: 55vw;
+            margin: 1vw;
+            position: relative;
+            right: 2vw;
+            /* width: fit-content; */
+        }
+        #trois{
+            grid-row-start: 2;
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
+        #troiss{
+            grid-row-start: 2;
+            grid-column-start: 5;
+            grid-column-end: 6;
+        }
+        #quatre{
+            grid-row-start: 3;
+            grid-column-start: 1;
+            grid-column-end: 6;
+        }
+        #cinq{
+            grid-row-start: 4;
+            grid-column-start: 1;
+            grid-column-end: 6;
         }
 }
