@@ -71,14 +71,14 @@
                 "id": "9",
                 "name": "gallerie NFT",
                 "description": "projet personnel",
-                "image": "/img/2D/graphisme/cover/dex_Ar_ial.png",
+                "image": "/img/2D/graphisme/nft/TIMONST.jpg",
                 "outils": "photoshop" 
             },
             {
                 "id": "10",
                 "name": "logo mmi",
                 "description": "projet personnel",
-                "image": "/img/2D/graphisme/cover/dex_Ar_ial.png",
+                "image": "/img/2D/graphisme/logommi/logodb.png",
                 "outils": "illustrator et photoshop" 
             }
 
@@ -138,14 +138,14 @@
                 "id": "17",
                 "name": "epée",
                 "description": "projet personnel",
-                "image": "/img/2D/graphisme/cover/dex_Ar_ial.png",
+                "image": "/img/3D/epee.png",
                 "outils": "photoshop et blender"
             },
             {
                 "id": "18",
                 "name": "donut",
                 "description": "projet personnel",
-                "image": "/img/2D/graphisme/cover/dex_Ar_ial.png",
+                "image": "/img/3D/screen3.png",
                 "outils": "blender"
             }
         ]
