@@ -20,7 +20,7 @@ fetch('projet.json')
 
             } else {
                 imageElement.innerHTML += "<img src=" + data["image"] +" alt='image projet' >";
-                document.querySelector('body .image').style.overflow = "hidden";
+                // document.querySelector('body .image').style.overflow = "hidden";
                 // document.querySelector('body .image').style.displey = "flex"
             }
         } else {
@@ -32,7 +32,7 @@ fetch('projet.json')
         }
         //son
         if (data["son"]) {
-            imageElement.innerHTML += "<audio controls> <source src=" + data["son"] +" type='audio/mpeg' alt='image projet' ></audio>";
+            imageElement.innerHTML += "<div class='son'><audio controls> <source src=" + data["son"] +" type='audio/mpeg' alt='image projet' ></audio></div>";
         }
         //video
        
