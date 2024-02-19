@@ -387,6 +387,15 @@ body{
         background: linear-gradient(180deg, #8d61b600 0%, #8d61b632 94%);
         font-family: 'Nabla', cursive;
     }
+    a{
+        color: aliceblue;
+    }
+    a:hover{
+        color: #ac1de5;
+    }
+    a:active{
+        color: #e5d11d;
+    }
 @media screen and (min-width: 920px) {
     .infom{
         display: grid;

@@ -1,16 +1,16 @@
 [
     {
         "name": "qu'est ce que tu cherches ? 👀",
-        "description": "bienvenue",
+        "description": "bienvenue, je ne sais pas trop comment t'es arrivé là mais ecoute, tant qu'à faire tu peux m'envoyer un petit message pour me faire savoir que t'as vu x)",
         "mon role":"developpeur",
         "membres": "",
-        "image": "/img/1D/pc/pc.png",
-        "url": "https://wayager7.github.io/SAE-1.05/",
-        "outils": "visual studio code, photoshop" 
+        "image": "/img/inwaya-Récupéréhhtransparent.png",
+        "url": "https://youtu.be/fIp4VPJ__MY?si=61ImnbQ6yR2dNcnc",
+        "outils": "my brain" 
     },
     {
         "name": "portrait chinois",
-        "description": "d'où je pars",
+        "description": "d'où je pars: l'objectif de ce devoir etait de réaliser un portrait chinois en utilisant javascript pour integrer les elements automatiquement a partir d'une base de donnée en json. c'etait ma premiere experiance avec javascript.",
         "mon role":"developpeur, graphsite",
         "membres": "",
         "image": "/img/1D/pc/pc.png",
@@ -19,11 +19,11 @@
     },
     {
         "name": "MMIVIZ",
-        "description": "",
+        "description": "MMIVIZ est un projet scolaire de developpement web consistant a realiser un site de de data visualisation. Avec mon camarade nous avons décidé de traiter le sujet des victoirs des département mmi au festival mmi en fonction des années.",
         "mon role":"developpeur front-end, designeur graphique",
         "membres": 
             {
-                "name": "morgan Z",
+                "name": "Morgan Z",
                 "role": "developpement back-end, developpement front-end",
                 "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
             },
@@ -32,28 +32,17 @@
         "outils": "visual studio code, figma"
     },
     {
-        "name": "ENT",
-        "description": "",
-        "mon role":"developpeur front-end, designeur graphique",
-        "membres": [
-            {
-                "name": "morgan Z",
-                "role": "developpement back-end, developpement front-end",
-                "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
-            },
-            {
-                "name": "Maxime S",
-                "role": "designeur graphique",
-                "lkdn": "https://www.linkedin.com/in/maxime-scholtes/"
-            }
-        ],
+        "name": "Alcatraz",
+        "description": "Alcatraz est le nom que j'ai donné a mon projet de chat en php, le but etait de réaliser un site de chat en ligne sur lequel on devait se connecter pour participer, on devait fournir un acces aux utilisateurs mais aussi un panel administrateur permettant de supprimer des utilisateurs ou des messages.",
+        "mon role":"",
+        "membres": "",
         "image": "",
-        "url": "",
-        "outils": "visual studio code, figma"
+        "url": "https://waldi.todoom.eu/",
+        "outils": "visual studio code"
     },
     {
         "name": "catarcisse",
-        "description": "extrait de livre audio...",
+        "description": "réalisation d'un extrait de livre audio imaginaire en se basant sur un visuel (ici la couverture des livre blackwater).",
         "mon role":"monteur son, ingénieur son et commedienne de voix",
         "membres": [
             {
@@ -106,7 +95,7 @@
     },
     {
         "name": "gallerie covers",
-        "description": "couverture d'albums ",
+        "description": "couverture d'albums",
         "mon role":"",
         "membres": "",
         "image": ["/img/2D/graphisme/cover/dex_Ar_ial.png","/img/2D/graphisme/cover/endors_toi.png","/img/2D/graphisme/cover/gathib.png","/img/2D/graphisme/cover/KnL.png","/img/2D/graphisme/cover/simpson.png","/img/2D/graphisme/cover/walarigo.png","/img/2D/graphisme/cover/wa_and_in.png","/img/2D/graphisme/cover/whyw.png"],
@@ -124,7 +113,7 @@
     },
     {
         "name": "logo mmi",
-        "description": "proposition de logo mmi",
+        "description": "proposition de logo mmi pour Champs-sur-marne",
         "mon role":"",
         "membres": "",
         "image": ["/img/2D/graphisme/logommi/logosb.png","/img/2D/graphisme/logommi/logodb.png"],
@@ -186,7 +175,7 @@
     },
     {
         "name": "gif publicitaire",
-        "description": "premiere réalisation d'un gif dans le cadre d'un devoir",
+        "description": "premiere réalisation d'un gif mettant en scene une entreprise a des fin publicitaire, le miens s'inspire d'une publicité d'une console de nintendo diffusé en australie devenue connue malgré elle pour son aspect horrifique.",
         "mon role":"",
         "membres": "",
         "image": "",
@@ -196,28 +185,28 @@
     },
     {
         "name": "motion design",
-        "description": "realisation d'une video pour publiciter un projet citoyen",
+        "description": "realisation d'une video pour publiciter un projet citoyen ici pixel4charity: un projet citoyen fictif ayant pour but de recolter des dons pour une association. ce projet devait etre réalisé en motion designe.",
         "mon role":"motion designer, graphiste et monteur vidéo",
         "membres": [
             {
-                "name": "Konan-Hoel",
+                "name": "Konan-Hoel L",
                 "role": "designer, graphiste",
-                "lkdn": ""
+                "lkdn": "https://www.linkedin.com/in/konan-hoël-lesault-a48539250/"
             },
             {
-                "name": "yannick",
+                "name": "yannick M",
                 "role": "develloper",
-                "lkdn": ""
+                "lkdn": "https://www.linkedin.com/in/yannick-midey/"
             },
             {
-                "name": "noah",
+                "name": "noah C",
                 "role": "develloper",
-                "lkdn": ""
+                "lkdn": "https://www.linkedin.com/in/noah-calmette/"
             },
             {
-                "name": "guillaume",
+                "name": "guillaume DC",
                 "role": "graphiste",
-                "lkdn": ""
+                "lkdn": "https://www.linkedin.com/in/guillaume-da-cruz-906847260/"
             }
         ],
         "image": "",
@@ -233,17 +222,17 @@
             {
                 "name": "Konan-Hoel",
                 "role": "cadreur",
-                "lkdn": ""
+                "lkdn": "https://www.linkedin.com/in/konan-hoël-lesault-a48539250/"
             },
             {
                 "name": "yannick",
                 "role": "chef de projet",
-                "lkdn": ""
+                "lkdn": "https://www.linkedin.com/in/yannick-midey/"
             },
             {
-                "name": "guillaume D",
+                "name": "guillaume DC",
                 "role": "lumiere",
-                "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+                "lkdn": "https://www.linkedin.com/in/guillaume-da-cruz-906847260/"
             }
         ],
         "image": "",
@@ -252,33 +241,30 @@
         "video":"https://www.youtube.com/embed/NtPgAtM33eM?si=hSOdU-t0T3g1V2uv"
     },
     {
-        "id": "18",
         "name": "STI2DCOIN",
-        "description": "",
+        "description": "C'est pour un projet communautaire consistant a creer une monnaie virtuelle sur le serveur discord dédié a la filliere technologique STI2D que j'ai réalisé ces essaies en guise de proposition de design",
         "mon role":"",
         "membres": "",
-        "image": "",
+        "image": ["/img/3D/ormieux.png","/img/3D/sticoin.png", "/img/3D/screen1.png"],
         "url": "",
-        "outils": "visual studio code" 
+        "outils": "blender et photoshop" 
     },
     {
-        "id": "19",
         "name": "epée",
-        "description": "",
+        "description": "réalisation d'une épée pour s'occuper",
         "mon role":"",
         "membres": "",
-        "image": "",
+        "image": ["/img/3D/epee.png","/img/3D/screen2.png"],
         "url": "",
-        "outils": ["visual studio code", "figma"]
+        "outils": "blender"
     },
     {
-        "id": "20",
         "name": "donut",
-        "description": "",
+        "description": "remise a niveaux en 3D, le but etait, apres une longue pause, de reprendre blender en revoyant les outils et les fonctionnalitées en réalisant un donut.",
         "mon role":"",
         "membres": "",
-        "image": ["","",""],
+        "image": ["/img/3D/screen3.png","/img/3D/screen4.png"],
         "url": "",
-        "outils": ["visual studio code", "figma"]
+        "outils": "blender"
     }
 ]

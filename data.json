@@ -19,10 +19,10 @@
             },
             {
                 "id": "3",
-                "name": "ENT",
+                "name": "Alcatraz",
                 "description": "projet scolaire",
                 "image": "/list/3.png",
-                "outils": "PHP, CSS, JS et figma"
+                "outils": "PHP et CSS"
             }
         ],
         "div2": [
