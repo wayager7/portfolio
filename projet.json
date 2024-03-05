@@ -33,7 +33,7 @@
     },
     {
         "name": "Alcatraz",
-        "description": "Alcatraz est le nom que j'ai donné a mon projet de chat en php, le but etait de réaliser un site de chat en ligne sur lequel on devait se connecter pour participer, on devait fournir un acces aux utilisateurs mais aussi un panel administrateur permettant de supprimer des utilisateurs ou des messages.",
+        "description": "Alcatraz est le nom que j'ai donné a mon projet de chat en php, le but etait de réaliser un site de chat en ligne sur lequel on devait se connecter pour participer, on devait fournir un acces aux utilisateurs mais aussi un panel administrateur permettant de supprimer des utilisateurs ou des messages. <br>(actuellement en maintenance)",
         "mon role":"",
         "membres": "",
         "image": "",
