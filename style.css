@@ -129,6 +129,9 @@ body{
                 .divwhyw{
                     display: none;
                 }
+                #tetegrid{
+                    display: none;
+                }
                 .infom{
                     display: flex;
                     flex-direction: column;
@@ -432,6 +435,10 @@ body{
             transform: translate(50%, 50%);
             rotate: -135deg;
         }
+        #tetegrid{
+            display: block;
+            width: 70%;
+        }
     
 }
 @media screen and (min-width: 600px) {
@@ -545,7 +552,7 @@ body{
         }
         #trois{
             grid-row-start: 2;
-            grid-column-start: 3;
+            grid-column-start: 4;
             grid-column-end: 5;
         }
         #troiss{
@@ -567,6 +574,7 @@ body{
             position: relative;
             top: -6vh;
         }
+        
         /* .infom>*{
             position: relative;
             bottom: -10vh;
