@@ -15,14 +15,21 @@
                 "name": "MMIVIZ",
                 "description": "projet scolaire",
                 "image": "/list/2.png",
-                "outils": "HTML, CSS, JS et figma"
+                "outils": "HTML, CSS, JS (D3.js) et figma"
             },
             {
-                "id": "3",
-                "name": "Alcatraz",
+                "id": "19",
+                "name": "pendu",
                 "description": "projet scolaire",
-                "image": "/list/3.png",
-                "outils": "PHP et CSS"
+                "image": "/list/19.png",
+                "outils": "HTML, CSS, JS (react)"
+            },
+            {
+                "id": "20",
+                "name": "Art&Misia",
+                "description": "projet scolaire",
+                "image": "/list/20.png",
+                "outils": "HTML, CSS et JS (three.js)"
             }
         ],
         "div2": [

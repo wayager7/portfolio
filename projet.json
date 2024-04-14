@@ -266,5 +266,23 @@
         "image": ["/img/3D/screen3.png","/img/3D/screen4.png"],
         "url": "",
         "outils": "blender"
+    },
+    {
+        "name": "pendu",
+        "description": "Réalisation du jeu du pendu en Réact, selections de mots aléatoir inscrit dans un tableau et réaction à la victoir/echec differentes.",
+        "mon role":"",
+        "membres": "",
+        "image": ["/img/3D/screen3.png","/img/3D/screen4.png"],
+        "url": "http://hangman.fiaga.servd165239.odns.fr",
+        "outils": "JS (réact)"
+    },
+    {
+        "name": "art&misia",
+        "description": "Integrations d'un espace 3D imersif dans lequel on peut se déplacer a l'aide de touche de clavier/casque VR.",
+        "mon role":"",
+        "membres": "",
+        "image": ["/img/3D/screen3.png","/img/3D/screen4.png"],
+        "url": "https://experience.expo-artemisia.site/world.php?key=f5ba4350a2b6d641e98aff4a1ac70de839db3144cd45dca0aa5b169c94a40f36",
+        "outils": "JS (Three.js)"
     }
 ]
