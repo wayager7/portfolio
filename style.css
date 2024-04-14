@@ -38,7 +38,7 @@ body{
         justify-content: center;
         align-items: center;
         height: 10vh;
-        background: linear-gradient(0deg, #8d61b600 0%, #8d61b632 100%); 
+        /* background: linear-gradient(0deg, #8d61b600 0%, #8d61b632 100%);  */
         font-family: 'Nabla', cursive;
         font-size: 1.5rem;
     }
@@ -141,7 +141,7 @@ body{
                     /* border: solid white; */
                     scroll-snap-align: start;
                     align-items: flex-end;
-                    height: 100vh;
+                    height: 80vh;
                     /* overflow: scroll; */
                 }
                     /* .infom #un{
@@ -161,8 +161,8 @@ body{
                         flex-wrap: wrap;
                     }
                     .comp >*{
-                        height: 9vh;
-                        margin: 1vw;
+                        height: 8vh;
+                        margin: 0.5vw;
                     }
                     .list{
                         padding: 10px;
@@ -491,11 +491,20 @@ body{
 
     }
         .divwhyw img{
-            width: 60vw;
+            width: 50vw;
         }
     .planete{
         width: 56vh; 
         height: 56vh;
+    }
+    .clic{
+        font-size: 15vh;
+        position: relative;
+        top: 17vh;
+        opacity: 0;
+        /* box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.268); */
+        mix-blend-mode: soft-light;
+        transition: all 0.5s;
     }
         .creation{
             width: 6vw;
@@ -516,7 +525,7 @@ body{
         .planete:hover{
             /* transform: scale(1.2); */
             /* border: solid 2px #ffffff; */
-            box-shadow: 0px 0px 500px rgba(255, 255, 255, 0.152);
+            box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.268);
         }
     /* .infom{
         display: grid;
@@ -565,14 +574,15 @@ body{
             grid-column-start: 1;
             grid-column-end: 6;
             position: relative;
-            top: -3vh;
+            top: 3vh;
         }
         #cinq{
+            /* display: none; */
             grid-row-start: 4;
             grid-column-start: 1;
             grid-column-end: 6;
             position: relative;
-            top: -6vh;
+            top: 4vh;
         }
         
         /* .infom>*{

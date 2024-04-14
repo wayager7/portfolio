@@ -38,3 +38,34 @@ window.addEventListener('load', function() {
     });
 });
 
+
+//naviguer avec les fleches du clavier
+window.addEventListener('load', function() {
+  var logo = document.querySelector('.logo');
+  logo.addEventListener('click', function(event) {
+    event.preventDefault();
+    var didi = document.querySelector('.didi');
+    didi.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  });
+
+  // Écoutez l'événement keydown sur l'objet window
+  window.addEventListener('keydown', function(event) {
+    // Vérifiez si la touche pressée est la flèche vers le haut ou vers le bas
+    if (event.key === 'ArrowUp') {
+      // Si c'est la flèche vers le haut, faites défiler vers le haut
+      window.scrollBy({
+        top: -100,  // Modifiez cette valeur pour ajuster la distance de défilement
+        behavior: 'smooth'
+      });
+    } else if (event.key === 'ArrowDown') {
+      // Si c'est la flèche vers le bas, faites défiler vers le bas
+      window.scrollBy({
+        top: 100,  // Modifiez cette valeur pour ajuster la distance de défilement
+        behavior: 'smooth'
+      });
+    }
+  });
+});

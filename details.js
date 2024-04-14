@@ -75,7 +75,9 @@ document.querySelectorAll('.planete').forEach((planete) => {
     planete.addEventListener('click', () => {
         document.querySelectorAll('.planete').forEach((allPlanete) => {
             const contenu = allPlanete.querySelector('.contenu');
+            const span = allPlanete.querySelector('span');
             if (contenu.style.display === 'none') {
+                span.style.display = 'none';
                 contenu.style.display = 'block';
                 allPlanete.style.width = '100vw';
                 allPlanete.style.height = '100vh';
@@ -83,6 +85,7 @@ document.querySelectorAll('.planete').forEach((planete) => {
                 allPlanete.style.background = 'linear-gradient(1deg, #' + allPlanete.id + ' 0%, rgba(67, 66, 80, 0) 94%)';
                 console.log("affiche contenu");
             } else {
+                span.style.display = 'block';
                 contenu.style.display = 'none';
                 allPlanete.style.width = initialWidth;
                 allPlanete.style.height = initialWidth;
@@ -95,4 +98,16 @@ document.querySelectorAll('.planete').forEach((planete) => {
     });
 });
 
+document.querySelectorAll('.planete').forEach((planete) => {
+    const span = planete.querySelector('span');
 
+    // Lorsque la souris entre sur '.planete', réduisez l'opacité du 'span'
+    planete.addEventListener('mouseover', () => {
+        span.style.opacity = '0.1';  // Réduisez l'opacité comme vous le souhaitez
+    });
+
+    // Lorsque la souris quitte '.planete', rétablissez l'opacité du 'span'
+    planete.addEventListener('mouseout', () => {
+        span.style.opacity = '0';  // Rétablissez l'opacité à sa valeur initiale
+    });
+});
