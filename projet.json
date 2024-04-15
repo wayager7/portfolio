@@ -27,7 +27,7 @@
                 "role": "developpement back-end, developpement front-end",
                 "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
             },
-        "image": "/img/1D/mmiviz/accueil.png",
+        "image": ["/img/1D/mmiviz/accueil.png","/img/1D/mmiviz/figma.png","/img/1D/mmiviz/stats.png"],
         "url": "https://suzoka.github.io/MMIViz/",
         "outils": "visual studio code, figma"
     },
@@ -272,16 +272,20 @@
         "description": "Réalisation du jeu du pendu en Réact, selections de mots aléatoir inscrit dans un tableau et réaction à la victoir/echec differentes.",
         "mon role":"",
         "membres": "",
-        "image": ["/img/3D/screen3.png","/img/3D/screen4.png"],
+        "image": ["/img/1D/pendu/1.png","/img/1D/pendu/2.png","/img/1D/pendu/3.png"],
         "url": "http://hangman.fiaga.servd165239.odns.fr",
         "outils": "JS (réact)"
     },
     {
         "name": "art&misia",
-        "description": "Integrations d'un espace 3D imersif dans lequel on peut se déplacer a l'aide de touche de clavier/casque VR.",
-        "mon role":"",
-        "membres": "",
-        "image": ["/img/3D/screen3.png","/img/3D/screen4.png"],
+        "description": "exposition virtuelle en 3D et imersif presentant des oeuvres de l'artiste peintre Artemisia Gentileschi.",
+        "mon role":"integrateur 3D",
+        "membres": {
+            "name": "Arthur Z",
+            "role": "Integrateur 3D, developpeur",
+            "lkdn": "https://www.linkedin.com/in/arthur-zachary/"
+        },
+        "image": ["/img/1D/arte/1.png","/img/1D/arte/2.png","/img/1D/arte/3.png"],
         "url": "https://experience.expo-artemisia.site/world.php?key=f5ba4350a2b6d641e98aff4a1ac70de839db3144cd45dca0aa5b169c94a40f36",
         "outils": "JS (Three.js)"
     }
