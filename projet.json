@@ -1,8 +1,8 @@
 [
     {
-        "name": "qu'est ce que tu cherches ? 👀",
-        "description": "bienvenue, je ne sais pas trop comment t'es arrivé là mais ecoute, tant qu'à faire tu peux m'envoyer un petit message pour me faire savoir que t'as vu x)",
-        "mon role":"developpeur",
+        "name": "qu'est-ce que tu cherches ? 👀",
+        "description": "bienvenue, je ne sais pas trop comment t'es arrivé là, mais écoute, tant qu'à faire, tu peux m'envoyer un petit message pour me faire savoir que t'as vu x)",
+        "mon role":"développeur",
         "membres": "",
         "image": "/img/inwaya-Récupéréhhtransparent.png",
         "url": "https://youtu.be/fIp4VPJ__MY?si=61ImnbQ6yR2dNcnc",
@@ -10,8 +10,8 @@
     },
     {
         "name": "portrait chinois",
-        "description": "d'où je pars: l'objectif de ce devoir etait de réaliser un portrait chinois en utilisant javascript pour integrer les elements automatiquement a partir d'une base de donnée en json. c'etait ma premiere experiance avec javascript.",
-        "mon role":"developpeur, graphsite",
+        "description": "d'où je pars : l'objectif de ce devoir était de réaliser un portrait chinois en utilisant javascript pour intégrer les éléments automatiquement à partir d'une base de données en json. C'était ma première expérience avec JavaScript.",
+        "mon role":"développeur, graphiste",
         "membres": "",
         "image": "/img/1D/pc/pc.png",
         "url": "https://wayager7.github.io/SAE-1.05/",
@@ -19,21 +19,20 @@
     },
     {
         "name": "MMIVIZ",
-        "description": "MMIVIZ est un projet scolaire de developpement web consistant a realiser un site de de data visualisation. Avec mon camarade nous avons décidé de traiter le sujet des victoirs des département mmi au festival mmi en fonction des années.",
-        "mon role":"developpeur front-end, designeur graphique",
-        "membres": 
-            {
-                "name": "Morgan Z",
-                "role": "developpement back-end, developpement front-end",
-                "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
-            },
+        "description": "MMIVIZ est un projet scolaire de développement web consistant a réaliser un site de data visualisation. Avec mon camarade, nous avons décidé de traiter le sujet des victoires des département mmi au festival mmi en fonction des années.",
+        "mon role":"développeur front-end, designer graphique",
+        "membres": {
+            "name": "Morgan Z",
+            "role": "développement back-end, développement front-end",
+            "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
+        },
         "image": ["/img/1D/mmiviz/accueil.png","/img/1D/mmiviz/figma.png","/img/1D/mmiviz/stats.png"],
         "url": "https://suzoka.github.io/MMIViz/",
         "outils": "visual studio code, figma"
     },
     {
         "name": "Alcatraz",
-        "description": "Alcatraz est le nom que j'ai donné a mon projet de chat en php, le but etait de réaliser un site de chat en ligne sur lequel on devait se connecter pour participer, on devait fournir un acces aux utilisateurs mais aussi un panel administrateur permettant de supprimer des utilisateurs ou des messages. <br>(actuellement en maintenance)",
+        "description": "Alcatraz est le nom que j'ai donné à mon projet de chat en php, le but était de réaliser un site de chat en ligne sur lequel on devait se connecter pour participer, on devait fournir un accès aux utilisateurs, mais aussi un panel administrateur permettant de supprimer des utilisateurs ou des messages. (actuellement en maintenance)",
         "mon role":"",
         "membres": "",
         "image": "",
@@ -43,7 +42,7 @@
     {
         "name": "catarcisse",
         "description": "réalisation d'un extrait de livre audio imaginaire en se basant sur un visuel (ici la couverture des livre blackwater).",
-        "mon role":"monteur son, ingénieur son et commedienne de voix",
+        "mon role":"monteur son, ingénieur son et comédienne de voix",
         "membres": [
             {
                 "name": "Maria O",
@@ -52,12 +51,12 @@
             },
             {
                 "name": "Alisson M",
-                "role": "auteur, ingénieur son, commedienne de voix",
+                "role": "auteur, ingénieur son, comédienne de voix",
                 "lkdn": "https://www.linkedin.com/in/alisson-menanteau-692711251/"
             },
             {
                 "name": "Tania AG",
-                "role": "directrice artistique, commedienne de voix",
+                "role": "directrice artistique, comédienne de voix",
                 "lkdn": "https://www.linkedin.com/in/tania-almeida-gomes-a8884a23a/"
             }
         ],
@@ -67,7 +66,7 @@
     },
     {
         "name": "chemestry",
-        "description": "sample de musique et compoition",
+        "description": "sample de musique et composition",
         "mon role":"",
         "membres": "",
         "image": "/img/1D/chimie/chimimg.png",
@@ -82,8 +81,7 @@
         "image": "/img/1D/gdmld/gdmld.png",
         "son": "/img/1D/gdmld/goodmélodie.wav",
         "outils": "flstudio"
-    }
-    ,
+    },
     {
         "name": "K=nL²e",
         "description": "composition",
@@ -104,7 +102,7 @@
     },
     {
         "name": "gallerie NFT",
-        "description": "a mes debuts en graphisme durant le premier confinement, je m'amusais a realiser des images pour mes amis en repartant systematiquement d'une meme base: des NFT avant l'heure",
+        "description": "à mes débuts en graphisme durant le premier confinement, je m'amusais à réaliser des images pour mes amis en repartant systématiquement d'une même base : des NFT avant l'heure",
         "mon role":"",
         "membres": "",
         "image": ["/img/2D/graphisme/nft/BAPTISTENST.jpg","/img/2D/graphisme/nft/EMILENST.jpg","/img/2D/graphisme/nft/EUGENIENST.jpg","/img/2D/graphisme/nft/GATIENNST.jpg","/img/2D/graphisme/nft/LAURANST.png","/img/2D/graphisme/nft/LIVIANST.jpg","/img/2D/graphisme/nft/TIMONST.jpg"],
@@ -122,23 +120,23 @@
     },
     {
         "name": "mmind",
-        "description": "",
+        "description": "Proposition de nouveau design pour des posts du compte instagram mmind <br>(1re image = designe initial, 2e image = proposition d'idée, 3e image = designe final)",
         "mon role":"designer",
         "membres": [
             {
-                "name": "morgan Z",
+                "name": "Morgan Z",
                 "role": "designer",
                 "lkdn": "https://www.linkedin.com/in/morgan-zarka/"
             },
             {
                 "name": "Bastien",
                 "role": "designer",
-                "lkdn": ""
+                "lkdn": "https://www.linkedin.com/in/bastien-jacob/"
             },
             {
                 "name": "Robin",
                 "role": "designer",
-                "lkdn": ""
+                "lkdn": "https://www.linkedin.com/in/robin-vigier-02353b267/"
             }
         ],
         "image": ["/img/2D/design/mmind/ancien.png","/img/2D/design/mmind/idee.jpg","/img/2D/design/mmind/final.png"],
@@ -150,24 +148,24 @@
         "mon role":"graphiste",
         "membres": [
             {
-                "name": "Konan-Hoel",
+                "name": "Konan-Hoel L",
                 "role": "designer, graphiste",
-                "lkdn": ""
+                "lkdn": "https://www.linkedin.com/in/konan-ho%C3%ABl-lesault-a48539250/"
             },
             {
-                "name": "yannick",
+                "name": "Yannick M",
                 "role": "develloper",
-                "lkdn": ""
+                "lkdn": "https://www.linkedin.com/in/yannick-midey/"
             },
             {
-                "name": "noah",
+                "name": "Noah C",
                 "role": "develloper",
-                "lkdn": ""
+                "lkdn": "https://www.linkedin.com/in/noah-calmette/"
             },
             {
-                "name": "guillaume",
+                "name": "guillaume DC",
                 "role": "graphiste",
-                "lkdn": ""
+                "lkdn": "https://www.linkedin.com/in/guillaume-da-cruz-906847260/"
             }
         ],
         "image": ["/img/2D/design/p4c/p4c1.png","/img/2D/design/p4c/p4c1_1.png","/img/2D/design/p4c/p4c1_5.png","/img/2D/design/p4c/p4c1blc.png"],
@@ -175,8 +173,7 @@
     },
     {
         "name": "gif publicitaire",
-        "description": "premiere réalisation d'un gif mettant en scene une entreprise a des fin publicitaire, le miens s'inspire d'une publicité d'une console de nintendo diffusé en australie devenue connue malgré elle pour son aspect horrifique.",
-        "mon role":"",
+        "description": "première réalisation d'un gif mettant en scène une entreprise a des fins publicitaires, le mien s'inspire d'une publicité d'une console de Nintendo diffusé en Australie devenue connue malgré elle pour son aspect horrifique.",        "mon role":"",
         "membres": "",
         "image": "",
         "url": "",
@@ -185,8 +182,8 @@
     },
     {
         "name": "motion design",
-        "description": "realisation d'une video pour publiciter un projet citoyen ici pixel4charity: un projet citoyen fictif ayant pour but de recolter des dons pour une association. ce projet devait etre réalisé en motion designe.",
-        "mon role":"motion designer, graphiste et monteur vidéo",
+        "description": "réalisation d'une vidéo pour publiciter un projet citoyen ici pixel4charity: un projet citoyen fictif ayant pour but de récolter des dons pour une association. Ce projet devait être réalisé en motion désigne.",
+        "mon role":"motion designer, graphiste et monteur vidéo",        
         "membres": [
             {
                 "name": "Konan-Hoel L",
@@ -216,8 +213,8 @@
     },
     {
         "name": "interview",
-        "description": "dans le cadre d'une SAE nous avons interviewé un regisseur et je me suis chargé du montage de vidéo",
-        "mon role":"ingenieur son et monteur vidéo",
+        "description": "Dans le cadre d'une SAE nous avons interviewé un régisseur et je me suis chargé du montage de vidéo",
+        "mon role":"ingénieur son et monteur vidéo",
         "membres": [
             {
                 "name": "Konan-Hoel",
@@ -242,8 +239,7 @@
     },
     {
         "name": "STI2DCOIN",
-        "description": "C'est pour un projet communautaire consistant a creer une monnaie virtuelle sur le serveur discord dédié a la filliere technologique STI2D que j'ai réalisé ces essaies en guise de proposition de design",
-        "mon role":"",
+        "description": "C'est pour un projet communautaire consistant a créer une monnaie virtuelle sur le serveur discord dédié a la filière technologique STI2D que j'ai réalisé ces essais en guise de proposition de design",        "mon role":"",
         "membres": "",
         "image": ["/img/3D/ormieux.png","/img/3D/sticoin.png", "/img/3D/screen1.png"],
         "url": "",
@@ -260,8 +256,7 @@
     },
     {
         "name": "donut",
-        "description": "remise a niveaux en 3D, le but etait, apres une longue pause, de reprendre blender en revoyant les outils et les fonctionnalitées en réalisant un donut.",
-        "mon role":"",
+        "description": "remise a niveaux en 3D, le but était, après une longue pause, de reprendre blender en revoyant les outils et les fonctionnalités en réalisant un donut.",        "mon role":"",
         "membres": "",
         "image": ["/img/3D/screen3.png","/img/3D/screen4.png"],
         "url": "",
@@ -269,8 +264,7 @@
     },
     {
         "name": "pendu",
-        "description": "Réalisation du jeu du pendu en Réact, selections de mots aléatoir inscrit dans un tableau et réaction à la victoir/echec differentes.",
-        "mon role":"",
+        "description": "Réalisation du jeu du pendu en Réact, sélections de mots aléatoires inscrit dans un tableau et réaction à la victoir/echec différentes.",        "mon role":"",
         "membres": "",
         "image": ["/img/1D/pendu/1.png","/img/1D/pendu/2.png","/img/1D/pendu/3.png"],
         "url": "http://hangman.fiaga.servd165239.odns.fr",
@@ -278,7 +272,7 @@
     },
     {
         "name": "art&misia",
-        "description": "exposition virtuelle en 3D et imersif presentant des oeuvres de l'artiste peintre Artemisia Gentileschi.",
+        "description": "exposition virtuelle en 3D et immersif présentant des œuvres de l'artiste-peintre Artemisia Gentileschi.",
         "mon role":"integrateur 3D",
         "membres": {
             "name": "Arthur Z",

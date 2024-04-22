@@ -111,3 +111,16 @@ document.querySelectorAll('.planete').forEach((planete) => {
         span.style.opacity = '0';  // Rétablissez l'opacité à sa valeur initiale
     });
 });
+
+
+// Sélectionnez la div avec la classe "loader"
+var loader = document.querySelector('.loader');
+
+setTimeout(function() {
+  // Modifiez les propriétés de style après l'attente
+  loader.style.opacity = '0';
+}, 3000);  // 3000 millisecondes
+setTimeout(function() {
+  // Modifiez les propriétés de style après l'attente
+  loader.style.display = 'none';
+}, 4000);  // 4000 millisecondes

@@ -220,6 +220,16 @@ body{
                 background-image: linear-gradient(0deg, #000000 0%, #0000007d 20%, #00000038 80%, #000000 100%), linear-gradient(90deg, #000000ad 0%, #0000007d 5%, #0000007d 95%, #000000ad 100%), url("img/stars.jpg");
                 /* animation: slide 10s linear infinite; */
             }
+                .clic{
+                    display: none;
+                    font-size: 15vh;
+                    position: relative;
+                    top: 17vh;
+                    opacity: 0;
+                    /* box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.268); */
+                    mix-blend-mode: soft-light;
+                    transition: all 0.5s;
+                }
                 .planete{
                     /* display: none; */
                     color: white;
@@ -442,6 +452,46 @@ body{
     
 }
 @media screen and (min-width: 600px) {
+    /* @keyframes opacity{
+        100% { opacity: 0; }
+        0% { opacity: 1; }
+    } */
+    .loader{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: radial-gradient(50vw 50vw at 50% 50%, #000000 0%, rgba(0, 0, 0, 0.23) 100%), url("img/stars.jpg");
+        height: 100vh;
+        width: 100vw;
+        z-index: 10;
+        transition: all 1s;
+        font-size: 2rem;
+        /* animation: opacity 2s; */
+    }
+    .linner{
+        margin: 15px;
+        overflow: hidden;
+        width: 60vw;
+        height: 4vh;
+        border: solid 1px #ffffff;
+        padding: 4px;
+    }
+    .linnerin{
+        width: 0%;
+        height: 100%;
+        background-color: #ffffff;
+        animation: linner 4s;
+    }
+    @keyframes linner{
+        0% { width: 0%; }
+        20% { width: 20%; }
+        50% { width: 60%; }
+        65% { width: 90%; }
+        70% { width: 100%; }
+        100% { width: 100%; }
+    }
     header{
         display: grid;
         grid-template-columns: 1fr 1fr 14fr 1fr 1fr 1fr 1fr ;
@@ -498,6 +548,7 @@ body{
         height: 56vh;
     }
     .clic{
+        display: block;
         font-size: 15vh;
         position: relative;
         top: 17vh;
@@ -551,7 +602,6 @@ body{
             grid-row-end: 2;
             grid-column-start: 3;
             grid-column-end: 6;
-            text-align: right;
             margin-right: 5vw;
             width: 55vw;
             margin: 1vw;
