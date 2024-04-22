@@ -1,3 +1,13 @@
+// Sélectionn div classe "loader"
+var loader = document.querySelector('.loader');
+
+setTimeout(function() {
+  loader.style.opacity = '0';
+}, 3000);  // 3000 millisecondes
+setTimeout(function() {
+  loader.style.display = 'none';
+}, 4000);  // 4000 millisecondes
+
 
 
 const planete = document.querySelector('.planete');
@@ -113,14 +123,3 @@ document.querySelectorAll('.planete').forEach((planete) => {
 });
 
 
-// Sélectionnez la div avec la classe "loader"
-var loader = document.querySelector('.loader');
-
-setTimeout(function() {
-  // Modifiez les propriétés de style après l'attente
-  loader.style.opacity = '0';
-}, 3000);  // 3000 millisecondes
-setTimeout(function() {
-  // Modifiez les propriétés de style après l'attente
-  loader.style.display = 'none';
-}, 4000);  // 4000 millisecondes
