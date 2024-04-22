@@ -524,6 +524,10 @@ body{
         background-color: #ffffff;
         animation: linner 4s;
     }
+    .loader p{
+        display: block;
+        opacity: 80%;
+    }
     @keyframes linner{
         0% { width: 0%; }
         20% { width: 20%; }
