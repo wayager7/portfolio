@@ -44,7 +44,7 @@ fetch('projet.json')
         document.querySelector('body .projet .details').innerHTML += "<div class='texte'><p>" + data["description"] + "</p></div><br>"
         //roles
         if (data["mon role"]) {
-            document.querySelector('body .projet .details').innerHTML += "<p class='roles'> dans ce projet, j'ai été " + data["mon role"] + "</p>"
+            document.querySelector('body .projet .details').innerHTML += "<p class='roles'> Dans ce projet, j'ai été " + data["mon role"] + ".</p>"
         }
 
 
@@ -52,7 +52,7 @@ fetch('projet.json')
         //membres
         if (data["membres"]) {
             if (Array.isArray(data["membres"])) {
-                document.querySelector('body .projet .details').innerHTML += "<p>j'ai pu travailler avec</p>";
+                document.querySelector('body .projet .details').innerHTML += "<br><p>J'ai pu travailler avec</p>";
                 data["membres"].forEach((membres) => {
                     document.querySelector('body .projet .details').innerHTML += "<ul>";
                     document.querySelector('body .projet .details ul').innerHTML += "<li><a href=" + membres.lkdn + ">" + membres.name + "</a><br>" + membres.role + "</li>";
@@ -70,7 +70,7 @@ fetch('projet.json')
 
         //outils
         if (data["outils"]) {
-            document.querySelector('body .projet .details').innerHTML += "<br><p>outils utilisés " + data["outils"] + "</p>"
+            document.querySelector('body .projet .details').innerHTML += "<br><p>outils utilisés: <br> " + data["outils"] + "</p>"
         }
         
         

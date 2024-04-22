@@ -61,15 +61,22 @@ section{
     display: flex;
     width: 60vw;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    margin-left: 30px;
+    /* justify-content: center;
+    align-items: center; */
+} 
 .roles{
     text-align: left;
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 h1{
     font-size: 3rem;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .image::-webkit-scrollbar {
