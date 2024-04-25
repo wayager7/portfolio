@@ -42,7 +42,7 @@
             },
             {
                 "id": "5",
-                "name": "chemestry",
+                "name": "chemistry",
                 "description": "projet personnel",
                 "image": "/list/5.webp",
                 "outils": "flstudio"
@@ -69,7 +69,7 @@
         "div1":[
             {
                 "id": "8",
-                "name": "gallerie covers",
+                "name": "galerie covers",
                 "description": "projet personnel",
                 "image": "/img/2D/graphisme/cover/dex_Ar_ial.png",
                 "outils": "illustrator et photoshop"
