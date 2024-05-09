@@ -108,18 +108,18 @@ document.querySelectorAll('.planete').forEach((planete) => {
     });
 });
 
-document.querySelectorAll('.planete').forEach((planete) => {
-    const span = planete.querySelector('span');
+// document.querySelectorAll('.planete').forEach((planete) => {
+//     const span = planete.querySelector('span');
 
-    // Lorsque la souris entre sur '.planete', réduisez l'opacité du 'span'
-    planete.addEventListener('mouseover', () => {
-        span.style.opacity = '0.1';  // Réduisez l'opacité comme vous le souhaitez
-    });
+//     // Lorsque la souris entre sur '.planete', réduisez l'opacité du 'span'
+//     planete.addEventListener('mouseover', () => {
+//         span.style.opacity = '0.1';  // Réduisez l'opacité comme vous le souhaitez
+//     });
 
-    // Lorsque la souris quitte '.planete', rétablissez l'opacité du 'span'
-    planete.addEventListener('mouseout', () => {
-        span.style.opacity = '0';  // Rétablissez l'opacité à sa valeur initiale
-    });
-});
+//     // Lorsque la souris quitte '.planete', rétablissez l'opacité du 'span'
+//     planete.addEventListener('mouseout', () => {
+//         span.style.opacity = '0';  // Rétablissez l'opacité à sa valeur initiale
+//     });
+// });
 
 

@@ -368,10 +368,6 @@ body{
                         /* background: linear-gradient(1deg, #434250 0%, rgba(67, 66, 80, 0) 94%); */
                         /* display: none; */
                     }
-                    /* .planete:active{
-                        width: 60vw;
-                        height: 60vw;
-                    } */
                     .naviggcont{
                         position: sticky;
                         top: 0%;
@@ -621,6 +617,7 @@ body{
             /* transform: scale(1.2); */
             /* border: solid 2px #ffffff; */
             box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.268);
+            cursor: pointer;
         }
     /* .infom{
         display: grid;
