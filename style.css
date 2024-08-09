@@ -101,13 +101,13 @@ body{
 
     }
         .moi{
+            display: flex;
             padding-top: 10vh;
             height: 100vh;
             width: 100vw;
             scroll-snap-align: center;
             transition: all 0.5s;
             overflow-x: scroll;
-            display: flex;
             scroll-snap-type: x mandatory;
             flex-direction: row;
             justify-content: space-between;
@@ -180,7 +180,7 @@ body{
                     width: 100vw;
                     /* border: solid white; */
                     scroll-snap-align: start;
-                    align-items: flex-end;
+                    align-items: center;
                     height: 80vh;
                     /* overflow: scroll; */
                 }
@@ -197,9 +197,20 @@ body{
                         display: flex;
                         justify-content: space-around;
                         align-items: center;
-                        width: 90vw;
+                        /* width: 90vw; */
                         flex-wrap: wrap;
                     }
+                    .zonedidi {
+                        position: relative; /* Assurez-vous que l'élément parent a une position relative */
+                        width: 90vw;
+                        height: 80vh;
+                        border: white solid 3px;
+                        border-radius: 20px;
+                        overflow: scroll;
+                        /* background: linear-gradient(0deg, #000000 0%, #000000bc 20%, #000000bc 80%, #000000 100%), url("didiff.png") no-repeat center center; */
+                        background-size: cover;
+                    }
+
                     .comp >*{
                         height: 8vh;
                         margin: 0.5vw;
@@ -452,12 +463,17 @@ body{
     }
 @media screen and (min-width: 920px) {
     .infom{
-        display: grid;
-        width: 100vw;
-        grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        justify-items: center;
-        align-items: center;
+        /* display: grid; */
+        /* padding: 12px; */
+        /* margin: 20px; */
+        /* border: solid yellow; */
+        /* display: flex; */
+        border-radius: 20px;
+        width: 10000px;
+        /* grid-template-columns: 20vw 20vw 20vw 20vw 20vw; */
+        /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+        /* justify-items: center; */
+        /* align-items: center; */
     }
     .infom .fless{
         display: flex; 
@@ -619,6 +635,16 @@ body{
             box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.268);
             cursor: pointer;
         }
+        .zonedidi {
+            position: relative; /* Assurez-vous que l'élément parent a une position relative */
+            width: 80vw;
+            height: 80vh;
+            border: white solid 3px;
+            border-radius: 20px;
+            overflow: scroll;
+            background: linear-gradient(0deg, #000000 0%, #000000bc 20%, #000000bc 80%, #000000 100%), url("didiff.png") no-repeat center center;
+            background-size: cover;
+        }
     /* .infom{
         display: grid;
         width: 100vw;
@@ -627,18 +653,16 @@ body{
         justify-items: center;
         align-items: center;
     } */
-        #un{
+        /* #un{
             grid-row-start: 1;
             grid-column-start: 1;
             grid-column-end: 3;
             grid-row-end: 3;
-            /* align-self: center;
-            justify-self: center; */
             text-align: left;
             margin: 1vw;
             margin-left: 5vw;
-        }
-        #deux{
+        } */
+        /* #deux{
             grid-row-start: 1;
             grid-row-end: 2;
             grid-column-start: 3;
@@ -648,33 +672,32 @@ body{
             margin: 1vw;
             position: relative;
             right: 2vw;
-            /* width: fit-content; */
-        }
-        #trois{
+        } */
+        /* #trois{
             grid-row-start: 2;
             grid-column-start: 4;
             grid-column-end: 5;
-        }
-        #troiss{
+        } */
+        /* #troiss{
             grid-row-start: 2;
             grid-column-start: 5;
             grid-column-end: 6;
-        }
-        #quatre{
+        } */
+        /* #quatre{
             grid-row-start: 3;
             grid-column-start: 1;
             grid-column-end: 6;
             position: relative;
             top: 3vh;
-        }
-        #cinq{
-            /* display: none; */
+        } */
+        /* #cinq{
+            display: none;
             grid-row-start: 4;
             grid-column-start: 1;
             grid-column-end: 6;
             position: relative;
             top: 4vh;
-        }
+        } */
         
         /* .infom>*{
             position: relative;
